@@ -142,6 +142,22 @@
     setTimeout(updateNodeLines, 300);
   }
 
+  // Expandable Right-Side Floating Social Menu (+)
+  var menuContainer = document.getElementById('floatingSocialMenu');
+  var menuTrigger = document.getElementById('socialMenuTrigger');
+  if (menuContainer && menuTrigger) {
+    menuTrigger.addEventListener('click', function (e) {
+      e.stopPropagation();
+      menuContainer.classList.toggle('open');
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!menuContainer.contains(e.target)) {
+        menuContainer.classList.remove('open');
+      }
+    });
+  }
+
   // Reveal on scroll
   if ('IntersectionObserver' in window) {
     var reveal = new IntersectionObserver(function (entries) {
