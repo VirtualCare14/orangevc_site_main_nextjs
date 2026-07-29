@@ -62,8 +62,7 @@
     let pathContent = null;
     switch (iconName) {
       case "MessageCircle": // WhatsApp
-        pathContent = React.createElement("path", { d: "M7.9 20A9 9 0 1 0 4 16.1L2 22z" });
-        break;
+        return React.createElement("img", { src: "images/whatsapp-icon.png", alt: "WhatsApp", width: size, height: size, style: { objectFit: "contain", display: "inline-block" } });
       case "Facebook":
         pathContent = React.createElement("path", { d: "M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" });
         break;
