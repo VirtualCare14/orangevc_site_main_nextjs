@@ -34,6 +34,19 @@
     window.addEventListener('scroll', onScroll, { passive: true });
   }
 
+  // Hero cards scroll navigation
+  var heroGrid = document.getElementById('heroCardsGrid');
+  var prevBtn = document.getElementById('heroCardPrev');
+  var nextBtn = document.getElementById('heroCardNext');
+  if (heroGrid && prevBtn && nextBtn) {
+    prevBtn.addEventListener('click', function () {
+      heroGrid.scrollBy({ top: -160, behavior: 'smooth' });
+    });
+    nextBtn.addEventListener('click', function () {
+      heroGrid.scrollBy({ top: 160, behavior: 'smooth' });
+    });
+  }
+
   // Reveal on scroll
   if ('IntersectionObserver' in window) {
     var reveal = new IntersectionObserver(function (entries) {
@@ -44,7 +57,7 @@
         }
       });
     }, { threshold: 0.12 });
-    document.querySelectorAll('.pillar, .service-card, .model-card, .why-item, .industry-card, .blog-card, .case-card, .capability')
+    document.querySelectorAll('.pillar, .service-card, .model-card, .why-item, .industry-card, .blog-card, .case-card, .capability, .hero-info-card')
       .forEach(function (el) { el.classList.add('reveal'); reveal.observe(el); });
   }
 })();

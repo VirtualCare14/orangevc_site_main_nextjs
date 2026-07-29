@@ -183,21 +183,188 @@ p { margin: 0 0 1em; }
   font-size: .8rem; font-weight: 700; line-height: 1;
 }
 
-.hero-card-stack { position: relative; height: 420px; }
-.info-card {
-  position: absolute;
-  background: #fff; border: 1px solid var(--c-line);
-  border-radius: var(--radius);
-  padding: 18px 20px; box-shadow: var(--shadow-md);
-  display: flex; flex-direction: column; gap: 4px;
+/* ============ HERO SERVICES SHOWCASE (7 CARDS) ============ */
+.hero-cards-showcase {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
 }
-.info-card strong { font-family: var(--font-head); font-size: 1rem; color: var(--c-ink); }
-.info-card span { font-size: .85rem; color: var(--c-muted); }
-.info-card .card-icon { font-size: 1.5rem; margin-bottom: 6px; }
-.card-1 { top: 8%; right: 6%; transform: rotate(-3deg); }
-.card-2 { top: 38%; left: 0%; transform: rotate(2deg); }
-.card-3 { bottom: 6%; right: 14%; transform: rotate(-1deg); }
-.card-3 .ic-orange { background: var(--c-orange-tint); border-radius: 8px; padding: 6px 10px; }
+
+.hero-cards-showcase::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 4px;
+  background: linear-gradient(90deg, var(--c-orange) 0%, #FF8C38 50%, var(--c-orange-deep) 100%);
+}
+
+.showcase-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--c-line);
+}
+
+.showcase-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.showcase-title {
+  font-family: var(--font-head);
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--c-ink);
+  margin: 0;
+}
+
+.showcase-badge {
+  background: var(--c-orange-tint);
+  color: var(--c-orange-deep);
+  border: 1px solid var(--c-orange-tint-2);
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.showcase-nav-btns {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.showcase-nav-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--c-line);
+  background: #fff;
+  color: var(--c-ink-2);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.showcase-nav-btn:hover {
+  background: var(--c-orange);
+  color: #fff;
+  border-color: var(--c-orange);
+}
+
+.hero-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  max-height: 480px;
+  overflow-y: auto;
+  padding-right: 6px;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for hero cards grid */
+.hero-cards-grid::-webkit-scrollbar {
+  width: 5px;
+}
+.hero-cards-grid::-webkit-scrollbar-track {
+  background: var(--c-orange-tint);
+  border-radius: 10px;
+}
+.hero-cards-grid::-webkit-scrollbar-thumb {
+  background: var(--c-orange);
+  border-radius: 10px;
+}
+
+.hero-info-card {
+  background: #fff;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.hero-info-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--c-orange);
+  box-shadow: var(--shadow-md);
+}
+
+.hero-card-img-wrap {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+.hero-card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.hero-info-card:hover .hero-card-img-wrap img {
+  transform: scale(1.05);
+}
+
+.hero-card-badge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: rgba(22, 32, 42, 0.88);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+
+.hero-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-card-icon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.hero-card-title {
+  font-family: var(--font-head);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--c-ink);
+  margin: 0;
+  line-height: 1.25;
+}
+
+.hero-card-desc {
+  font-size: 0.76rem;
+  color: var(--c-muted);
+  line-height: 1.4;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 /* ============ TRUST STRIP ============ */
 .trust-strip {
