@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Industries served by Orange Virtual Connect - Healthcare, Manufacturing, SME, MSME, Technology and Startups." />
+<title>Industries We Serve | Orange Virtual Connect</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    corePlugins: {
+      preflight: false,
+    }
+  }
+</script>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js" crossorigin></script>
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo"><img src="images/ovc-logo-transparent.png" alt="Orange Virtual Connect Logo" style="width:42px;height:42px;object-fit:contain;" /><span class="logo-text"><strong>Orange</strong><span>VC</span></span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" id="siteNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="industries.html" class="active">Industries</a></li>
+        <li><a href="blog.html">Blog &amp; Case Studies</a></li>
+      </ul>
+
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Industries We Serve</span>
+    <h1>Six industries. <span class="brand-orange">One operating model.</span></h1>
+    <p class="lead">
+      We partner with mid-size organizations across regulated, operations-heavy and high-growth verticals.
+      Our teams speak your language &mdash; because we've already delivered inside your industry.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="industries-grid">
+
+      <!-- HEALTHCARE -->
+      <article class="industry-card" id="healthcare">
+        <div class="card-img-wrapper">
+          <img src="images/ai-agent.png" alt="Healthcare" />
+          <span class="card-img-badge">Medora360 OS</span>
+        </div>
+        <div class="industry-num">01</div>
+        <div class="industry-icon">🩺</div>
+        <h3>Healthcare</h3>
+        <p>From 10-bed hospitals to multi-city diagnostic chains &mdash; we help healthcare operators digitize end-to-end without disrupting clinical care.</p>
+        <ul class="industry-points">
+          <li><span class="dot-orange"></span> Hospital OS through Medora360 (HIS + EMR + billing)</li>
+          <li><span class="dot-orange"></span> Teleconsultation, patient engagement &amp; reminders</li>
+          <li><span class="dot-orange"></span> Insurance &amp; TPA claim automation</li>
+          <li><span class="dot-orange"></span> HIPAA-style data discipline &amp; access controls</li>
+        </ul>
+        <a href="blog.html#prayascare" class="industry-link">See a healthcare case study &rarr;</a>
+      </article>
+
+      <!-- MANUFACTURING -->
+      <article class="industry-card" id="manufacturing">
+        <div class="card-img-wrapper">
+          <img src="images/software.png" alt="Manufacturing" />
+          <span class="card-img-badge">Industrial Tech</span>
+        </div>
+        <div class="industry-num">02</div>
+        <div class="industry-icon">🏭</div>
+        <h3>Manufacturing</h3>
+        <p>We help manufacturers modernise plant operations, connect the supply chain and unlock data-driven decisions across the shop floor.</p>
+        <ul class="industry-points">
+          <li><span class="dot-orange"></span> ERP bridges, shop-floor digitalization &amp; vendor portals</li>
+          <li><span class="dot-orange"></span> Predictive maintenance &amp; IoT data ingestion</li>
+          <li><span class="dot-orange"></span> Warehouse &amp; inventory control via WMS</li>
+          <li><span class="dot-orange"></span> Dealer &amp; distributor enablement platforms</li>
+        </ul>
+        <a href="products.html#wms" class="industry-link">See WMS for manufacturing &rarr;</a>
+      </article>
+
+      <!-- SME -->
+      <article class="industry-card" id="sme">
+        <div class="card-img-wrapper">
+          <img src="images/whatsapp.png" alt="SME" />
+          <span class="card-img-badge">Growth Stack</span>
+        </div>
+        <div class="industry-num">03</div>
+        <div class="industry-icon">🏢</div>
+        <h3>SME</h3>
+        <p>Plug-and-play growth stacks for small and mid-size enterprises that want to compete with larger players &mdash; without enterprise overhead.</p>
+        <ul class="industry-points">
+          <li><span class="dot-orange"></span> Conversion-led website + SEO + paid media</li>
+          <li><span class="dot-orange"></span> Sales CRM &amp; inbound calling support</li>
+          <li><span class="dot-orange"></span> WhatsApp business automation</li>
+          <li><span class="dot-orange"></span> Customer service BPO under your brand</li>
+        </ul>
+        <a href="index.html#services" class="industry-link">Explore SME services &rarr;</a>
+      </article>
+
+      <!-- MSME -->
+      <article class="industry-card" id="msme">
+        <div class="card-img-wrapper">
+          <img src="images/sales.png" alt="MSME" />
+          <span class="card-img-badge">Cash Flow & Ops</span>
+        </div>
+        <div class="industry-num">04</div>
+        <div class="industry-icon">🧰</div>
+        <h3>MSME</h3>
+        <p>Capex-light technology for micro, small &amp; medium enterprises &mdash; focused on faster cash cycles, leaner ops and modern customer experiences.</p>
+        <ul class="industry-points">
+          <li><span class="dot-orange"></span> Payment reminders via Remind365</li>
+          <li><span class="dot-orange"></span> Low-cost AI agents for sales &amp; support</li>
+          <li><span class="dot-orange"></span> GST, compliance &amp; invoicing toolkits</li>
+          <li><span class="dot-orange"></span> Custom software at SME budgets</li>
+        </ul>
+        <a href="blog.html#palkotech" class="industry-link">See Remind365 in action &rarr;</a>
+      </article>
+
+      <!-- TECHNOLOGY -->
+      <article class="industry-card" id="technology">
+        <div class="card-img-wrapper">
+          <img src="images/crm.png" alt="Technology" />
+          <span class="card-img-badge">SaaS Ecosystem</span>
+        </div>
+        <div class="industry-num">05</div>
+        <div class="industry-icon">⚙️</div>
+        <h3>Technology</h3>
+        <p>Engineering partnerships for software companies, SaaS vendors and tech-first businesses &mdash; from MVP to scale, with white-label delivery options.</p>
+        <ul class="industry-points">
+          <li><span class="dot-orange"></span> SaaS product development &amp; co-building</li>
+          <li><span class="dot-orange"></span> White-label AI agent deployments</li>
+          <li><span class="dot-orange"></span> API integrations, DevOps &amp; QA pods</li>
+          <li><span class="dot-orange"></span> Dedicated engineering capacity on demand</li>
+        </ul>
+        <a href="products.html#sales-crm" class="industry-link">Explore our products &rarr;</a>
+      </article>
+
+      <!-- STARTUPS -->
+      <article class="industry-card" id="startups">
+        <div class="card-img-wrapper">
+          <img src="images/webdesign.png" alt="Startups" />
+          <span class="card-img-badge">MVP & Scale</span>
+        </div>
+        <div class="industry-num">06</div>
+        <div class="industry-icon">🚀</div>
+        <h3>Startups</h3>
+        <p>Fractional product, GTM and ops teams for founders &mdash; so you can ship faster, sell smarter and stay investor-ready without burning runway.</p>
+        <ul class="industry-points">
+          <li><span class="dot-orange"></span> MVP-to-scale product engineering</li>
+          <li><span class="dot-orange"></span> Founder-led GTM &amp; lead support calling</li>
+          <li><span class="dot-orange"></span> Investor-ready dashboards &amp; reporting</li>
+          <li><span class="dot-orange"></span> 24/7 customer service from Day 1</li>
+        </ul>
+        <a href="index.html#contact" class="industry-link">Talk to a startup partner &rarr;</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft">
+  <div class="container two-col">
+    <div>
+      <span class="eyebrow eyebrow-orange">Cross-industry Capabilities</span>
+      <h2>Whatever your industry, you get the same operating system behind it.</h2>
+      <p>Our delivery engine is the same across all six verticals &mdash; a senior Account Lead, a cross-functional pod, transparent commercials and KPI-linked reporting. So your team always knows who's accountable and where your money is going.</p>
+    </div>
+    <div class="capability-grid">
+      <div class="capability"><span>🎨</span><strong>Brand &amp; Web</strong><p>Conversion-led websites, brand systems, landing pages.</p></div>
+      <div class="capability"><span>🤖</span><strong>AI Agents</strong><p>Sales, support and ops agents trained on your data.</p></div>
+      <div class="capability"><span>💻</span><strong>Custom Software</strong><p>Web, mobile &amp; integration engineering at agile speed.</p></div>
+      <div class="capability"><span>📞</span><strong>Voice &amp; Chat Ops</strong><p>Outbound calling, inbound support and chat operations.</p></div>
+      <div class="capability"><span>📈</span><strong>Growth Marketing</strong><p>SEO, paid media, lifecycle &amp; WhatsApp commerce.</p></div>
+      <div class="capability"><span>📦</span><strong>SaaS Products</strong><p>Plug-and-play products you can deploy in weeks.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band" id="contact">
+  <div class="container cta-grid">
+    <div class="cta-bg" aria-hidden="true"></div>
+    <div class="cta-copy">
+      <span class="eyebrow">Industry partner</span>
+      <h2>Tell us your industry. We'll send a relevant case study within 24 hours.</h2>
+      <p>Every industry we serve has a battle-tested playbook &mdash; we'd love to walk you through it.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="mailto:sales@orangevirtualconnect.com?subject=Industry%20Discussion" class="btn btn-primary">Email Us</a>
+      <a href="https://wa.me/919310557156" class="btn btn-outline">WhatsApp Us</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo logo-footer"><img src="images/ovc-logo-transparent.png" alt="Orange Virtual Connect Logo" style="width:42px;height:42px;object-fit:contain;" /><span class="logo-text"><strong>Orange</strong><span>VC</span></span></a>
+      <p>Technology, AI &amp; BPO &mdash; delivered as one trusted platform for mid-size organizations worldwide.</p>
+    </div>
+    <div><h4>Company</h4><ul><li><a href="index.html">Home</a></li><li><a href="blog.html">Blog</a></li><li><a href="blog.html#case-studies">Case Studies</a></li><li><a href="index.html#contact">Contact</a></li></ul></div>
+    <div><h4>Products</h4><ul><li><a href="products.html#sales-crm">Sales CRM</a></li><li><a href="products.html#medora360">Medora360</a></li><li><a href="products.html#orangepulse">OrangePulse</a></li><li><a href="products.html#remind365">Remind365</a></li><li><a href="products.html#wms">Warehouse Management</a></li></ul></div>
+    <div><h4>Industries</h4><ul><li><a href="industries.html#healthcare">Healthcare</a></li><li><a href="industries.html#manufacturing">Manufacturing</a></li><li><a href="industries.html#sme">SME</a></li><li><a href="industries.html#msme">MSME</a></li><li><a href="industries.html#technology">Technology</a></li><li><a href="industries.html#startups">Startups</a></li></ul></div>
+    <div class="footer-contact"><h4>Reach Us</h4><p>📧 <a href="mailto:sales@orangevirtualconnect.com">sales@orangevirtualconnect.com</a></p><p>📞 <a href="tel:+919310557156">+91 93105 57156</a></p><div class="footer-social-root mt-4"></div></div>
+  </div>
+  <div class="footer-bar"><div class="container"><span>© <span id="year"></span> Orange Virtual Connect. All rights reserved.</span><span><a href="#">Privacy</a> · <a href="#">Terms</a></span></div></div>
+</footer>
+
+<a class="float-whatsapp" href="https://wa.me/919310557156" aria-label="WhatsApp us"><svg viewBox="0 0 32 32" width="22" height="22" fill="white"><path d="M19.11 17.39c-.27-.13-1.6-.79-1.85-.88-.25-.09-.43-.13-.61.13-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.13-1.14-.42-2.17-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.55.13-.13.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.04-.34-.02-.48-.07-.13-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47l-.52-.01c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29s.99 2.66 1.13 2.84c.13.18 1.94 2.97 4.7 4.16.66.28 1.17.45 1.57.58.66.21 1.26.18 1.73.11.53-.08 1.6-.65 1.82-1.28.22-.63.22-1.17.16-1.28-.06-.11-.25-.18-.52-.31zM16.02 4C9.62 4 4.42 9.2 4.42 15.6c0 2.02.53 3.99 1.53 5.73L4 28l6.84-1.91c1.66.91 3.54 1.39 5.45 1.39h.01c6.4 0 11.6-5.2 11.6-11.6S22.42 4 16.02 4z"/></svg></a>
+<script src="js/main.js"></script>
+<script src="js/components.js"></script>
+</body>
+</html>

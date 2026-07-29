@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Orange Virtual Connect - Bespoke technology, AI agents, WhatsApp automation and SaaS products for mid-size organizations worldwide." />
+<title>Orange Virtual Connect | AI, Technology & BPO for Mid-Size Enterprises</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    corePlugins: {
+      preflight: false,
+    }
+  }
+</script>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js" crossorigin></script>
+</head>
+<body>
+
+<!-- ============== HEADER ============== -->
+<header class="site-header" id="siteHeader">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo" aria-label="Orange Virtual Connect Home">
+      <img src="images/ovc-logo-transparent.png" alt="Orange Virtual Connect Logo" style="width:42px;height:42px;object-fit:contain;" />
+      <span class="logo-text"><strong>Orange</strong><span>VC</span></span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="industries.html">Industries</a></li>
+        <li><a href="blog.html">Blog &amp; Case Studies</a></li>
+      </ul>
+
+    </nav>
+  </div>
+</header>
+
+<!-- ============== HERO ============== -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <span class="dot d1"></span><span class="dot d2"></span>
+    <span class="dot d3"></span><span class="dot d4"></span>
+    <span class="dot d5"></span><span class="dot d6"></span>
+  </div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 2 2 7l10 5 10-5-10-5Zm0 7L2 14l10 5 10-5M2 17l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Engineering Smarter Growth
+      </span>
+      <h1>Your Business.<br/><span class="brand-orange">Our Execution.</span></h1>
+      <p class="lead">
+        We are Orange Virtual Connect &mdash; a technology and BPO partner for mid-size organizations worldwide.
+        From bespoke engineering and AI agents to WhatsApp automation and our own SaaS products, we help you
+        scale smarter, faster, and at a fraction of enterprise cost.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Book a 30-min Discovery Call</a>
+        <a href="products.html" class="btn btn-ghost">Explore Our Products &rarr;</a>
+      </div>
+
+      <!-- Premium Hero Social Block (React Component) -->
+      <div id="hero-social-root"></div>
+
+      <ul class="hero-bullets">
+        <li><span class="check">&check;</span> AI-enabled bespoke solutions</li>
+        <li><span class="check">&check;</span> WhatsApp &amp; AI agent automation</li>
+        <li><span class="check">&check;</span> SaaS products built in-house</li>
+      </ul>
+    </div>
+
+    <div class="hero-card-stack" aria-hidden="true">
+      <div class="info-card card-1">
+        <img src="images/ai-agent.png" alt="AI Agents" class="info-card-img" />
+        <strong>AI Agents Deployment</strong>
+        <span>Sales, Support & Ops</span>
+      </div>
+      <div class="info-card card-2">
+        <img src="images/whatsapp.png" alt="WhatsApp Automation" class="info-card-img" />
+        <strong>WhatsApp Automation</strong>
+        <span>Scalable & On-brand</span>
+      </div>
+      <div class="info-card card-3">
+        <img src="images/crm.png" alt="Sales CRM" class="info-card-img" />
+        <strong>Sales CRM</strong>
+        <span>Pipeline that closes</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== TRUST STRIP ============== -->
+<section class="trust-strip">
+  <div class="container trust-grid">
+    <div class="trust-item"><strong>120+</strong><span>Global Engagements</span></div>
+    <div class="trust-item"><strong>35+</strong><span>Mid-size Clients</span></div>
+    <div class="trust-item"><strong>6</strong><span>Industries Served</span></div>
+    <div class="trust-item"><strong>24/7</strong><span>Follow-the-Sun Support</span></div>
+  </div>
+</section>
+
+<!-- ============== WHO WE ARE ============== -->
+<section class="section">
+  <div class="container two-col">
+    <div>
+      <span class="eyebrow eyebrow-orange">Who We Are</span>
+      <h2>A single trusted platform for technology, AI & business process excellence.</h2>
+      <p>
+        Orange Virtual Connect combines AI-powered technology with expert human support to simplify
+        how mid-size organizations run their operations. Our integrated, plug-and-play model means you
+        get enterprise-grade capability &mdash; without enterprise-grade complexity or cost.
+      </p>
+      <p>
+        Whether you need a custom web platform, a deployed AI agent working your inbox, a hospital OS,
+        or a 24/7 customer service team &mdash; we deliver it as one connected outcome, owned by one accountable team.
+      </p>
+    </div>
+    <div class="pillar-grid">
+      <div class="pillar">
+        <div class="card-img-wrapper">
+          <img src="images/software.png" alt="Bespoke Technology" />
+          <span class="card-img-badge">Tech Platform</span>
+        </div>
+        <div class="pillar-num">01</div>
+        <h3>Bespoke Technology</h3>
+        <p>Tailored software, websites, integrations and platforms engineered to your exact operating reality.</p>
+      </div>
+      <div class="pillar">
+        <div class="card-img-wrapper">
+          <img src="images/ai-agent.png" alt="AI Enablement" />
+          <span class="card-img-badge">AI Intelligence</span>
+        </div>
+        <div class="pillar-num">02</div>
+        <h3>AI Enablement</h3>
+        <p>AI agents and automation deployed across sales, support, ops &mdash; tuned to your data, brand and KPIs.</p>
+      </div>
+      <div class="pillar">
+        <div class="card-img-wrapper">
+          <img src="images/bpo.png" alt="Business Process Excellence" />
+          <span class="card-img-badge">24/7 Operations</span>
+        </div>
+        <div class="pillar-num">03</div>
+        <h3>Business Process Excellence</h3>
+        <p>Sales calling, customer service and back-office support teams who treat your customers as their own.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CORE SERVICES ============== -->
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow-orange">Our Services</span>
+      <h2>Intelligence built into every layer of your business.</h2>
+      <p class="lead-sm">
+        Seven high-impact services, delivered by one team. Pick one or combine them &mdash;
+        the playbook stays the same: outcome-first, transparent, accountable.
+      </p>
+    </div>
+
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="card-img-wrapper">
+          <img src="images/webdesign.png" alt="Website Designing" />
+          <span class="card-img-badge">UI/UX & Brand</span>
+        </div>
+        <div class="service-ico">🎨</div>
+        <h3>Website Designing</h3>
+        <p>Conversion-led websites, brand systems and landing pages built for global mid-size buyers.</p>
+      </div>
+      <div class="service-card">
+        <div class="card-img-wrapper">
+          <img src="images/ai-agent.png" alt="AI Agent Deployments" />
+          <span class="card-img-badge">Autonomous AI</span>
+        </div>
+        <div class="service-ico">🤖</div>
+        <h3>AI Agent Deployments</h3>
+        <p>Custom-trained AI agents for sales outreach, lead qualification, customer support and internal ops.</p>
+      </div>
+      <div class="service-card">
+        <div class="card-img-wrapper">
+          <img src="images/software.png" alt="Software Development" />
+          <span class="card-img-badge">Full Stack</span>
+        </div>
+        <div class="service-ico">💻</div>
+        <h3>Software Development</h3>
+        <p>Bespoke web &amp; mobile applications, integrations and internal tools &mdash; shipped in agile sprints.</p>
+      </div>
+      <div class="service-card">
+        <div class="card-img-wrapper">
+          <img src="images/sales.png" alt="Sales & Lead Support Calling" />
+          <span class="card-img-badge">Outbound & Inbound</span>
+        </div>
+        <div class="service-ico">📞</div>
+        <h3>Sales &amp; Lead Support Calling</h3>
+        <p>Outbound and inbound calling teams that fill your pipeline and qualify every opportunity that lands.</p>
+      </div>
+      <div class="service-card">
+        <div class="card-img-wrapper">
+          <img src="images/bpo.png" alt="Customer Service BPO" />
+          <span class="card-img-badge">24/7 Global</span>
+        </div>
+        <div class="service-ico">🎧</div>
+        <h3>Customer Service BPO</h3>
+        <p>24/7 multilingual customer service &mdash; voice, chat, email and WhatsApp &mdash; under your brand.</p>
+      </div>
+      <div class="service-card">
+        <div class="card-img-wrapper">
+          <img src="images/crm.png" alt="SaaS Product Development" />
+          <span class="card-img-badge">MVP to Scale</span>
+        </div>
+        <div class="service-ico">🧩</div>
+        <h3>SaaS Product Development</h3>
+        <p>From idea to MVP to scale &mdash; we co-build SaaS products with founders and product teams.</p>
+      </div>
+      <div class="service-card">
+        <div class="card-img-wrapper">
+          <img src="images/seo.png" alt="SEO & Digital Marketing" />
+          <span class="card-img-badge">Growth & Traffic</span>
+        </div>
+        <div class="service-ico">🚀</div>
+        <h3>SEO &amp; Digital Marketing</h3>
+        <p>Search-first content, performance ads and lifecycle campaigns that compound month over month.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== ENGAGEMENT MODELS ============== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow-orange">Engagement Models</span>
+      <h2>Pick the delivery model that fits your stage.</h2>
+    </div>
+    <div class="model-grid">
+      <article class="model-card">
+        <div class="card-img-wrapper">
+          <img src="images/software.png" alt="Project-Based" />
+          <span class="card-img-badge">Fixed Scope</span>
+        </div>
+        <span class="model-tag">Fixed Scope</span>
+        <h3>Project-Based</h3>
+        <p>Defined deliverables, fixed price, fixed timeline. Perfect for a new website, an MVP or a defined automation build.</p>
+        <ul>
+          <li>Discovery &amp; roadmap in week 1</li>
+          <li>SLA-driven delivery</li>
+          <li>Handover &amp; enablement included</li>
+        </ul>
+      </article>
+      <article class="model-card model-featured">
+        <div class="card-img-wrapper">
+          <img src="images/bpo.png" alt="Dedicated Pod" />
+          <span class="card-img-badge">Most Flexible</span>
+        </div>
+        <span class="model-tag model-tag-orange">Most Flexible</span>
+        <h3>Dedicated Pod</h3>
+        <p>A cross-functional team &mdash; engineers, AI specialists, designers and ops &mdash; working only on your roadmap.</p>
+        <ul>
+          <li>Monthly rolling engagement</li>
+          <li>Direct Slack &amp; weekly demos</li>
+          <li>Scales up or down in 2 weeks</li>
+        </ul>
+      </article>
+      <article class="model-card">
+        <div class="card-img-wrapper">
+          <img src="images/crm.png" alt="Managed Service" />
+          <span class="card-img-badge">Outcome-Owned</span>
+        </div>
+        <span class="model-tag">Outcome-Owned</span>
+        <h3>Managed Service</h3>
+        <p>We own a business KPI &mdash; collections, support CSAT, leads, conversions &mdash; end-to-end with full reporting.</p>
+        <ul>
+          <li>KPI-linked commercials</li>
+          <li>Real-time dashboards</li>
+          <li>Continuous optimization</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============== WHY OVC ============== -->
+<section class="section section-soft">
+  <div class="container why-grid">
+    <div>
+      <span class="eyebrow eyebrow-orange">Why Orange Virtual Connect</span>
+      <h2>Built for the mid-market. Tested across borders.</h2>
+      <p class="lead-sm">You get a senior team that behaves like an in-house function, at a cost structure that scales with your growth &mdash; not against it.</p>
+    </div>
+    <div class="why-list">
+      <div class="why-item">
+        <span class="why-ico">👥</span>
+        <div>
+          <h3>Personalized Support</h3>
+          <p>Every engagement has a named Account Lead. No ticket roulette, no faceless handovers.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <span class="why-ico">🌍</span>
+        <div>
+          <h3>Global Expertise</h3>
+          <p>We serve clients across continents with teams that follow the sun &mdash; real people, real time zones.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <span class="why-ico">🔒</span>
+        <div>
+          <h3>Trust &amp; Privacy</h3>
+          <p>Highest level of professionalism, NDAs, and data confidentiality &mdash; the way enterprise clients expect.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <span class="why-ico">🎯</span>
+        <div>
+          <h3>Outcome-First Delivery</h3>
+          <p>We measure success the way you do &mdash; pipeline, collections, NPS, time-to-value &mdash; not vanity hours.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CONTACT CTA ============== -->
+<section class="cta-band" id="contact">
+  <div class="container cta-grid">
+    <div class="cta-bg" aria-hidden="true"></div>
+    <div class="cta-copy">
+      <span class="eyebrow">Let's Talk</span>
+      <h2>Ready to put a senior technology &amp; BPO team on your roadmap?</h2>
+      <p>Book a free 30-minute discovery call. We'll map your goals to a realistic 90-day plan &mdash; no fluff, no obligation.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="mailto:sales@orangevirtualconnect.com" class="btn btn-primary">Email Us</a>
+      <a href="https://wa.me/919310557156" class="btn btn-outline">WhatsApp +91 93105 57156</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo logo-footer">
+        <img src="images/ovc-logo-transparent.png" alt="Orange Virtual Connect Logo" style="width:42px;height:42px;object-fit:contain;" />
+        <span class="logo-text"><strong>Orange</strong><span>VC</span></span>
+      </a>
+      <p>Technology, AI &amp; BPO &mdash; delivered as one trusted platform for mid-size organizations worldwide.</p>
+    </div>
+
+    <div>
+      <h4>Company</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="blog.html#case-studies">Case Studies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Products</h4>
+      <ul>
+        <li><a href="products.html#sales-crm">Sales CRM</a></li>
+        <li><a href="products.html#medora360">Medora360</a></li>
+        <li><a href="products.html#orangepulse">OrangePulse</a></li>
+        <li><a href="products.html#remind365">Remind365</a></li>
+        <li><a href="products.html#wms">Warehouse Management</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Industries</h4>
+      <ul>
+        <li><a href="industries.html#healthcare">Healthcare</a></li>
+        <li><a href="industries.html#manufacturing">Manufacturing</a></li>
+        <li><a href="industries.html#sme">SME</a></li>
+        <li><a href="industries.html#msme">MSME</a></li>
+        <li><a href="industries.html#technology">Technology</a></li>
+        <li><a href="industries.html#startups">Startups</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Reach Us</h4>
+      <p>📧 <a href="mailto:sales@orangevirtualconnect.com">sales@orangevirtualconnect.com</a></p>
+      <p>📞 <a href="tel:+919310557156">+91 93105 57156</a></p>
+      <div class="footer-social-root mt-4"></div>
+    </div>
+  </div>
+  <div class="footer-bar">
+    <div class="container">
+      <span>© <span id="year"></span> Orange Virtual Connect. All rights reserved.</span>
+      <span><a href="#">Privacy</a> · <a href="#">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<a class="float-whatsapp" href="https://wa.me/919310557156" aria-label="WhatsApp us">
+  <svg viewBox="0 0 32 32" width="22" height="22" fill="white"><path d="M19.11 17.39c-.27-.13-1.6-.79-1.85-.88-.25-.09-.43-.13-.61.13-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.13-1.14-.42-2.17-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.55.13-.13.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.04-.34-.02-.48-.07-.13-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47l-.52-.01c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29s.99 2.66 1.13 2.84c.13.18 1.94 2.97 4.7 4.16.66.28 1.17.45 1.57.58.66.21 1.26.18 1.73.11.53-.08 1.6-.65 1.82-1.28.22-.63.22-1.17.16-1.28-.06-.11-.25-.18-.52-.31zM16.02 4C9.62 4 4.42 9.2 4.42 15.6c0 2.02.53 3.99 1.53 5.73L4 28l6.84-1.91c1.66.91 3.54 1.39 5.45 1.39h.01c6.4 0 11.6-5.2 11.6-11.6S22.42 4 16.02 4z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+<script src="js/components.js"></script>
+</body>
+</html>

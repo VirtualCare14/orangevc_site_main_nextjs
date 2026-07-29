@@ -1,0 +1,16 @@
+{
+  "name": "orangevc-website",
+  "version": "1.0.0",
+  "description": "Orange Virtual Connect official website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [],
+  "author": "Orange Virtual Connect",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

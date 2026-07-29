@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Orange Virtual Connect Blog and Case Studies - real outcomes from Palkotech Engineering, Cable Sales and PrayasCare." />
+<title>Blog &amp; Case Studies | Orange Virtual Connect</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    corePlugins: {
+      preflight: false,
+    }
+  }
+</script>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js" crossorigin></script>
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo"><img src="images/ovc-logo-transparent.png" alt="Orange Virtual Connect Logo" style="width:42px;height:42px;object-fit:contain;" /><span class="logo-text"><strong>Orange</strong><span>VC</span></span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" id="siteNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="industries.html">Industries</a></li>
+        <li><a href="blog.html" class="active">Blog &amp; Case Studies</a></li>
+      </ul>
+
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Insights &amp; Outcomes</span>
+    <h1>Real stories from <span class="brand-orange">the operating floor.</span></h1>
+    <p class="lead">
+      Practical thinking on AI, automation and mid-market growth &mdash; plus three detailed case studies
+      showing how we partnered with Palkotech Engineering, Cable Sales and PrayasCare to deliver
+      measurable outcomes.
+    </p>
+  </div>
+</section>
+
+<!-- ============== INSIGHTS (BLOG STUBS) ============== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow-orange">Latest Insights</span>
+      <h2>From the OrangeVC desk.</h2>
+    </div>
+
+    <div class="blog-grid">
+      <article class="blog-card">
+        <div class="card-img-wrapper">
+          <img src="images/ai-agent.png" alt="AI Agents" />
+          <span class="card-img-badge">AI Agents</span>
+        </div>
+        <div class="blog-tag">AI Agents</div>
+        <h3>How AI Agents Are Replacing Tier-1 Support in Mid-Size Companies</h3>
+        <p>The first line of customer support is undergoing a quiet revolution. Here's how mid-size companies are deploying trained AI agents &mdash; without losing the human touch.</p>
+        <a href="#" class="blog-link">Read article &rarr;</a>
+      </article>
+      <article class="blog-card">
+        <div class="card-img-wrapper">
+          <img src="images/seo.png" alt="Collections Automation" />
+          <span class="card-img-badge">Collections</span>
+        </div>
+        <div class="blog-tag">Collections</div>
+        <h3>Payment Reminder Automation: Recovering 38% More Receivables Without Losing Trust</h3>
+        <p>Collections is a relationship function. The right automated reminder sequence recovers faster, escalates calmer &mdash; and keeps your customer relationships intact.</p>
+        <a href="#" class="blog-link">Read article &rarr;</a>
+      </article>
+      <article class="blog-card">
+        <div class="card-img-wrapper">
+          <img src="images/software.png" alt="Healthcare Hospital OS" />
+          <span class="card-img-badge">Healthcare</span>
+        </div>
+        <div class="blog-tag">Healthcare</div>
+        <h3>Designing a Hospital OS That Doctors Actually Use</h3>
+        <p>Most HIS systems fail at the bedside. Medora360 was designed the opposite way &mdash; starting with the doctor's mobile workflow and reverse-engineering the rest.</p>
+        <a href="#" class="blog-link">Read article &rarr;</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CASE STUDIES ============== -->
+<section class="section section-soft" id="case-studies">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow-orange">Case Studies</span>
+      <h2>Outcomes that moved the business needle.</h2>
+      <p class="lead-sm">Three mid-size clients. Three different problems. Same disciplined delivery.</p>
+    </div>
+
+    <!-- CASE STUDY 1 - PALKOTECH -->
+    <article class="case-card" id="palkotech">
+      <div class="card-img-wrapper" style="height: 200px;">
+        <img src="images/software.png" alt="Palkotech Engineering Case Study" />
+        <span class="card-img-badge">Engineering MSME</span>
+      </div>
+      <div class="case-head">
+        <span class="case-tag">MSME · Collections Automation</span>
+        <h3>Remind365 cuts DSO by 41% at Palkotech Engineering</h3>
+        <p class="case-sub">An automated payment reminder workflow for a growing engineering MSME.</p>
+      </div>
+
+      <div class="case-body">
+        <div class="case-block">
+          <span class="case-label">Client</span>
+          <p>Palkotech Engineering &mdash; a fast-growing engineering services MSME serving industrial customers across India.</p>
+        </div>
+        <div class="case-block">
+          <span class="case-label">Challenge</span>
+          <p>Palkotech was bleeding working capital because payment reminders were manual, inconsistent and dependent on a single accounts executive. DSO had crept past 75 days, the sales team was chasing invoices instead of selling, and customer relationships were fraying with poorly timed follow-ups.</p>
+        </div>
+        <div class="case-block">
+          <span class="case-label">Solution</span>
+          <p>We deployed <strong>Remind365</strong> &mdash; with WhatsApp-first reminder flows, automated escalation tiers (friendly &rarr; firm &rarr; legal notice), a reconciliation dashboard and a clean sync with their existing CRM and Tally books.</p>
+        </div>
+        <div class="case-block">
+          <span class="case-label">Outcome</span>
+          <ul class="case-results">
+            <li><strong>41%</strong><span>DSO reduction within two billing cycles</span></li>
+            <li><strong>3×</strong><span>faster collections team throughput</span></li>
+            <li><strong>0</strong><span>customer escalations in the first 90 days</span></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <!-- CASE STUDY 2 - CABLE SALES -->
+    <article class="case-card" id="cablesales">
+      <div class="card-img-wrapper" style="height: 200px;">
+        <img src="images/whatsapp.png" alt="Cable Sales Case Study" />
+        <span class="card-img-badge">Distribution SME</span>
+      </div>
+      <div class="case-head">
+        <span class="case-tag">SME · Digital Growth</span>
+        <h3>Cable Sales: 4.7× inbound leads in 6 months with a new website &amp; sales engine</h3>
+        <p class="case-sub">A complete digital growth setup for a regional cabling distributor.</p>
+      </div>
+
+      <div class="case-body">
+        <div class="case-block">
+          <span class="case-label">Client</span>
+          <p>Cable Sales &mdash; a regional cabling and connectivity distributor serving electricians, contractors and OEM buyers.</p>
+        </div>
+        <div class="case-block">
+          <span class="case-label">Challenge</span>
+          <p>Cable Sales had no digital storefront, weak inbound lead generation and an overstretched sales team juggling inbound calls, custom quotes and field visits &mdash; all with no clear pipeline visibility.</p>
+        </div>
+        <div class="case-block">
+          <span class="case-label">Solution</span>
+          <p>We designed &amp; built their first <strong>conversion-focused website</strong> &mdash; with product catalog, instant quote engine and WhatsApp click-to-chat. On top of that, we layered <strong>AI-driven sales &amp; lead support calling</strong>, SEO and paid social campaigns targeting electricians, contractors and OEMs.</p>
+        </div>
+        <div class="case-block">
+          <span class="case-label">Outcome</span>
+          <ul class="case-results">
+            <li><strong>4.7×</strong><span>inbound qualified leads in 6 months</span></li>
+            <li><strong>28%</strong><span>lower cost-per-lead from paid mix</span></li>
+            <li><strong>Lift</strong><span>in repeat orders from contractor accounts</span></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <!-- CASE STUDY 3 - PRAYASCARE -->
+    <article class="case-card" id="prayascare">
+      <div class="card-img-wrapper" style="height: 200px;">
+        <img src="images/ai-agent.png" alt="PrayasCare Case Study" />
+        <span class="card-img-badge">Healthcare Hospital</span>
+      </div>
+      <div class="case-head">
+        <span class="case-tag">Healthcare · Hospital Digitalization</span>
+        <h3>PrayasCare: Medora360 powers end-to-end digitalization for a 10-bed hospital</h3>
+        <p class="case-sub">From paper and spreadsheets to one connected hospital OS.</p>
+      </div>
+
+      <div class="case-body">
+        <div class="case-block">
+          <span class="case-label">Client</span>
+          <p>PrayasCare &mdash; a 10-bed multi-speciality hospital committed to delivering patient-first care in its community.</p>
+        </div>
+        <div class="case-block">
+          <span class="case-label">Challenge</span>
+          <p>PrayasCare was running on spreadsheets, paper registers and a fragmented billing workflow. Insurance claims were being rejected too often, doctors were spending their evenings on documentation, and the administration had no single source of truth for patients or revenue.</p>
+        </div>
+        <div class="case-block">
+          <span class="case-label">Solution</span>
+          <p>We rolled out <strong>Medora360</strong> &mdash; covering OPD/IPD modules, EMR, pharmacy, lab, automated billing and insurance/TPA workflows &mdash; alongside a <strong>doctor-friendly mobile app</strong> that makes bedside documentation effortless.</p>
+        </div>
+        <div class="case-block">
+          <span class="case-label">Outcome</span>
+          <ul class="case-results">
+            <li><strong>62%</strong><span>drop in claim rejections</span></li>
+            <li><strong>35%</strong><span>faster discharge-to-billing cycle</span></li>
+            <li><strong>+22</strong><span>patient NPS lift in six months</span></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="cta-band" id="contact">
+  <div class="container cta-grid">
+    <div class="cta-bg" aria-hidden="true"></div>
+    <div class="cta-copy">
+      <span class="eyebrow">Want a story like this?</span>
+      <h2>Your case study could be the next one we publish.</h2>
+      <p>Book a 30-minute discovery call. We'll show you exactly how we'd approach your situation &mdash; even if you never work with us.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="mailto:sales@orangevirtualconnect.com" class="btn btn-primary">Email Us</a>
+      <a href="https://wa.me/919310557156" class="btn btn-outline">WhatsApp Us</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo logo-footer"><img src="images/ovc-logo-transparent.png" alt="Orange Virtual Connect Logo" style="width:42px;height:42px;object-fit:contain;" /><span class="logo-text"><strong>Orange</strong><span>VC</span></span></a>
+      <p>Technology, AI &amp; BPO &mdash; delivered as one trusted platform for mid-size organizations worldwide.</p>
+    </div>
+    <div><h4>Company</h4><ul><li><a href="index.html">Home</a></li><li><a href="blog.html">Blog</a></li><li><a href="blog.html#case-studies">Case Studies</a></li><li><a href="index.html#contact">Contact</a></li></ul></div>
+    <div><h4>Products</h4><ul><li><a href="products.html#sales-crm">Sales CRM</a></li><li><a href="products.html#medora360">Medora360</a></li><li><a href="products.html#orangepulse">OrangePulse</a></li><li><a href="products.html#remind365">Remind365</a></li><li><a href="products.html#wms">Warehouse Management</a></li></ul></div>
+    <div><h4>Industries</h4><ul><li><a href="industries.html#healthcare">Healthcare</a></li><li><a href="industries.html#manufacturing">Manufacturing</a></li><li><a href="industries.html#sme">SME</a></li><li><a href="industries.html#msme">MSME</a></li><li><a href="industries.html#technology">Technology</a></li><li><a href="industries.html#startups">Startups</a></li></ul></div>
+    <div class="footer-contact"><h4>Reach Us</h4><p>📧 <a href="mailto:sales@orangevirtualconnect.com">sales@orangevirtualconnect.com</a></p><p>📞 <a href="tel:+919310557156">+91 93105 57156</a></p><div class="footer-social-root mt-4"></div></div>
+  </div>
+  <div class="footer-bar"><div class="container"><span>© <span id="year"></span> Orange Virtual Connect. All rights reserved.</span><span><a href="#">Privacy</a> · <a href="#">Terms</a></span></div></div>
+</footer>
+
+<a class="float-whatsapp" href="https://wa.me/919310557156" aria-label="WhatsApp us"><svg viewBox="0 0 32 32" width="22" height="22" fill="white"><path d="M19.11 17.39c-.27-.13-1.6-.79-1.85-.88-.25-.09-.43-.13-.61.13-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.13-1.14-.42-2.17-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.55.13-.13.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.04-.34-.02-.48-.07-.13-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47l-.52-.01c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29s.99 2.66 1.13 2.84c.13.18 1.94 2.97 4.7 4.16.66.28 1.17.45 1.57.58.66.21 1.26.18 1.73.11.53-.08 1.6-.65 1.82-1.28.22-.63.22-1.17.16-1.28-.06-.11-.25-.18-.52-.31zM16.02 4C9.62 4 4.42 9.2 4.42 15.6c0 2.02.53 3.99 1.53 5.73L4 28l6.84-1.91c1.66.91 3.54 1.39 5.45 1.39h.01c6.4 0 11.6-5.2 11.6-11.6S22.42 4 16.02 4z"/></svg></a>
+<script src="js/main.js"></script>
+<script src="js/components.js"></script>
+</body>
+</html>
