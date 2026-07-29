@@ -245,14 +245,14 @@
   </div>
 </section>
 
-<!-- ============== CORE SERVICES (INTERACTIVE NODE GRAPH) ============== -->
-<section class="section section-soft" id="services">
+<!-- ============== CORE SERVICES (INTERACTIVE ECOSYSTEM NODE GRAPH) ============== -->
+<section class="section ecosystem-section" id="services">
   <div class="container">
     <div class="section-head">
-      <span class="eyebrow eyebrow-orange">Interactive Ecosystem</span>
-      <h2>Connected Execution Architecture</h2>
+      <span class="eyebrow eyebrow-orange">Interactive Architecture</span>
+      <h2>Our Connected Execution Ecosystem</h2>
       <p class="lead-sm">
-        Hover or click any service node in our connected graph to explore how our technology, AI, and operations integrate seamlessly.
+        Hover or click any node to trace how our AI agents, bespoke software, calling operations, and SaaS products interconnect to drive growth.
       </p>
 
       <!-- Category Filter Pills -->
@@ -264,17 +264,19 @@
       </div>
     </div>
 
-    <!-- Interactive Node Graph Canvas Container -->
+    <!-- High-Tech Node Graph Canvas Container -->
     <div class="node-graph-wrapper">
+      <div class="graph-grid-bg" aria-hidden="true"></div>
+
       <!-- SVG Connecting Lines Layer -->
-      <svg class="node-graph-svg" id="nodeGraphSvg" viewBox="0 0 1000 480" preserveAspectRatio="xMidYMid meet">
+      <svg class="node-graph-svg" id="nodeGraphSvg" viewBox="0 0 1000 520" preserveAspectRatio="xMidYMid meet">
         <defs>
           <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#F26522" stop-opacity="0.8" />
-            <stop offset="100%" stop-color="#FF8C38" stop-opacity="0.3" />
+            <stop offset="0%" stop-color="#F26522" stop-opacity="0.9" />
+            <stop offset="100%" stop-color="#FF8C38" stop-opacity="0.4" />
           </linearGradient>
-          <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="4" result="blur" />
+          <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="5" result="blur" />
             <feComposite in="SourceGraphic" in2="blur" operator="over" />
           </filter>
         </defs>
@@ -287,66 +289,87 @@
         <div class="core-pulse-ring"></div>
         <div class="core-pulse-ring delay-1"></div>
         <div class="core-inner">
-          <img src="images/ovc-logo-transparent.png" alt="OVC Hub" class="core-logo" />
-          <strong>OrangeVC Core</strong>
-          <span class="core-status"><span class="status-dot"></span> Integrated Engine</span>
+          <img src="images/ovc-logo-transparent.png" alt="OrangeVC Core" class="core-logo" />
+          <strong>ORANGEVC CORE</strong>
+          <span class="core-status"><span class="status-dot"></span> Execution Engine</span>
         </div>
       </div>
 
-      <!-- 7 Floating Connected Nodes -->
+      <!-- 7 Symmetrical Connected Nodes -->
       <div class="nodes-container" id="nodesContainer">
-        <!-- Node 1 -->
+        <!-- Node 1: Left Top -->
         <div class="graph-node node-1 active" data-id="1" data-cat="tech">
+          <span class="node-dot"></span>
           <div class="node-icon">🎨</div>
-          <div class="node-label">Website Designing</div>
-          <div class="node-tag">UI/UX &amp; Brand</div>
+          <div class="node-text">
+            <span class="node-label">Website Designing</span>
+            <span class="node-tag">UI/UX &amp; Brand</span>
+          </div>
         </div>
 
-        <!-- Node 2 -->
+        <!-- Node 2: Left Middle -->
         <div class="graph-node node-2" data-id="2" data-cat="tech">
+          <span class="node-dot"></span>
           <div class="node-icon">🤖</div>
-          <div class="node-label">AI Agent Deployments</div>
-          <div class="node-tag">Autonomous AI</div>
+          <div class="node-text">
+            <span class="node-label">AI Agent Deployments</span>
+            <span class="node-tag">Autonomous AI</span>
+          </div>
         </div>
 
-        <!-- Node 3 -->
+        <!-- Node 3: Left Bottom -->
         <div class="graph-node node-3" data-id="3" data-cat="tech">
+          <span class="node-dot"></span>
           <div class="node-icon">💻</div>
-          <div class="node-label">Software Development</div>
-          <div class="node-tag">Full Stack</div>
+          <div class="node-text">
+            <span class="node-label">Software Development</span>
+            <span class="node-tag">Full Stack</span>
+          </div>
         </div>
 
-        <!-- Node 4 -->
+        <!-- Node 4: Top Center -->
         <div class="graph-node node-4" data-id="4" data-cat="bpo">
+          <span class="node-dot"></span>
           <div class="node-icon">📞</div>
-          <div class="node-label">Sales Calling</div>
-          <div class="node-tag">Outbound &amp; Inbound</div>
+          <div class="node-text">
+            <span class="node-label">Sales Calling</span>
+            <span class="node-tag">Outbound &amp; Inbound</span>
+          </div>
         </div>
 
-        <!-- Node 5 -->
+        <!-- Node 5: Right Top -->
         <div class="graph-node node-5" data-id="5" data-cat="bpo">
+          <span class="node-dot"></span>
           <div class="node-icon">🎧</div>
-          <div class="node-label">Customer Service BPO</div>
-          <div class="node-tag">24/7 Global</div>
+          <div class="node-text">
+            <span class="node-label">Customer Service BPO</span>
+            <span class="node-tag">24/7 Global</span>
+          </div>
         </div>
 
-        <!-- Node 6 -->
+        <!-- Node 6: Right Middle -->
         <div class="graph-node node-6" data-id="6" data-cat="growth">
+          <span class="node-dot"></span>
           <div class="node-icon">🧩</div>
-          <div class="node-label">SaaS Development</div>
-          <div class="node-tag">MVP to Scale</div>
+          <div class="node-text">
+            <span class="node-label">SaaS Development</span>
+            <span class="node-tag">MVP to Scale</span>
+          </div>
         </div>
 
-        <!-- Node 7 -->
+        <!-- Node 7: Right Bottom -->
         <div class="graph-node node-7" data-id="7" data-cat="growth">
+          <span class="node-dot"></span>
           <div class="node-icon">🚀</div>
-          <div class="node-label">SEO &amp; Digital Marketing</div>
-          <div class="node-tag">Growth &amp; Traffic</div>
+          <div class="node-text">
+            <span class="node-label">SEO &amp; Digital Marketing</span>
+            <span class="node-tag">Growth &amp; Traffic</span>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Active Connected Cards Grid -->
+    <!-- Active Connected Cards Grid (Symmetrical 4x2 Grid) -->
     <div class="connected-cards-grid" id="connectedCardsGrid">
       <div class="connected-card active" data-id="1" data-cat="tech">
         <div class="connected-card-header">
@@ -354,11 +377,16 @@
             <img src="images/webdesign.png" alt="Website Designing" />
             <span class="card-img-badge">UI/UX &amp; Brand</span>
           </div>
-          <span class="connected-node-badge">Node #01 Connected</span>
+          <div class="card-meta-bar">
+            <span class="connected-node-badge">Node #01 Connected</span>
+            <span class="card-cat-tag">Technology</span>
+          </div>
         </div>
         <div class="connected-card-body">
-          <div class="service-ico">🎨</div>
-          <h3>Website Designing</h3>
+          <div class="service-title-row">
+            <span class="service-ico">🎨</span>
+            <h3>Website Designing</h3>
+          </div>
           <p>Conversion-led websites, brand systems and landing pages built for global mid-size buyers.</p>
         </div>
       </div>
@@ -369,11 +397,16 @@
             <img src="images/ai-agent.png" alt="AI Agent Deployments" />
             <span class="card-img-badge">Autonomous AI</span>
           </div>
-          <span class="connected-node-badge">Node #02 Connected</span>
+          <div class="card-meta-bar">
+            <span class="connected-node-badge">Node #02 Connected</span>
+            <span class="card-cat-tag">AI Intelligence</span>
+          </div>
         </div>
         <div class="connected-card-body">
-          <div class="service-ico">🤖</div>
-          <h3>AI Agent Deployments</h3>
+          <div class="service-title-row">
+            <span class="service-ico">🤖</span>
+            <h3>AI Agent Deployments</h3>
+          </div>
           <p>Custom-trained AI agents for sales outreach, lead qualification, customer support and internal ops.</p>
         </div>
       </div>
@@ -384,11 +417,16 @@
             <img src="images/software.png" alt="Software Development" />
             <span class="card-img-badge">Full Stack</span>
           </div>
-          <span class="connected-node-badge">Node #03 Connected</span>
+          <div class="card-meta-bar">
+            <span class="connected-node-badge">Node #03 Connected</span>
+            <span class="card-cat-tag">Engineering</span>
+          </div>
         </div>
         <div class="connected-card-body">
-          <div class="service-ico">💻</div>
-          <h3>Software Development</h3>
+          <div class="service-title-row">
+            <span class="service-ico">💻</span>
+            <h3>Software Development</h3>
+          </div>
           <p>Bespoke web &amp; mobile applications, integrations and internal tools &mdash; shipped in agile sprints.</p>
         </div>
       </div>
@@ -399,11 +437,16 @@
             <img src="images/sales.png" alt="Sales & Lead Support Calling" />
             <span class="card-img-badge">Outbound &amp; Inbound</span>
           </div>
-          <span class="connected-node-badge">Node #04 Connected</span>
+          <div class="card-meta-bar">
+            <span class="connected-node-badge">Node #04 Connected</span>
+            <span class="card-cat-tag">Operations</span>
+          </div>
         </div>
         <div class="connected-card-body">
-          <div class="service-ico">📞</div>
-          <h3>Sales &amp; Lead Support Calling</h3>
+          <div class="service-title-row">
+            <span class="service-ico">📞</span>
+            <h3>Sales &amp; Lead Support Calling</h3>
+          </div>
           <p>Outbound and inbound calling teams that fill your pipeline and qualify every opportunity that lands.</p>
         </div>
       </div>
@@ -414,11 +457,16 @@
             <img src="images/bpo.png" alt="Customer Service BPO" />
             <span class="card-img-badge">24/7 Global</span>
           </div>
-          <span class="connected-node-badge">Node #05 Connected</span>
+          <div class="card-meta-bar">
+            <span class="connected-node-badge">Node #05 Connected</span>
+            <span class="card-cat-tag">BPO Support</span>
+          </div>
         </div>
         <div class="connected-card-body">
-          <div class="service-ico">🎧</div>
-          <h3>Customer Service BPO</h3>
+          <div class="service-title-row">
+            <span class="service-ico">🎧</span>
+            <h3>Customer Service BPO</h3>
+          </div>
           <p>24/7 multilingual customer service &mdash; voice, chat, email and WhatsApp &mdash; under your brand.</p>
         </div>
       </div>
@@ -429,11 +477,16 @@
             <img src="images/crm.png" alt="SaaS Product Development" />
             <span class="card-img-badge">MVP to Scale</span>
           </div>
-          <span class="connected-node-badge">Node #06 Connected</span>
+          <div class="card-meta-bar">
+            <span class="connected-node-badge">Node #06 Connected</span>
+            <span class="card-cat-tag">Products</span>
+          </div>
         </div>
         <div class="connected-card-body">
-          <div class="service-ico">🧩</div>
-          <h3>SaaS Product Development</h3>
+          <div class="service-title-row">
+            <span class="service-ico">🧩</span>
+            <h3>SaaS Product Development</h3>
+          </div>
           <p>From idea to MVP to scale &mdash; we co-build SaaS products with founders and product teams.</p>
         </div>
       </div>
@@ -444,12 +497,33 @@
             <img src="images/seo.png" alt="SEO & Digital Marketing" />
             <span class="card-img-badge">Growth &amp; Traffic</span>
           </div>
-          <span class="connected-node-badge">Node #07 Connected</span>
+          <div class="card-meta-bar">
+            <span class="connected-node-badge">Node #07 Connected</span>
+            <span class="card-cat-tag">Marketing</span>
+          </div>
         </div>
         <div class="connected-card-body">
-          <div class="service-ico">🚀</div>
-          <h3>SEO &amp; Digital Marketing</h3>
+          <div class="service-title-row">
+            <span class="service-ico">🚀</span>
+            <h3>SEO &amp; Digital Marketing</h3>
+          </div>
           <p>Search-first content, performance ads and lifecycle campaigns that compound month over month.</p>
+        </div>
+      </div>
+
+      <!-- Card #08: Custom Architecture CTA Card for perfect 4x2 grid balance -->
+      <div class="connected-card cta-banner-card" data-id="8" data-cat="all">
+        <div class="connected-card-header">
+          <div class="cta-banner-badge">Unified Solution</div>
+          <span class="connected-node-badge">Full Ecosystem Integration</span>
+        </div>
+        <div class="connected-card-body">
+          <div class="service-title-row">
+            <span class="service-ico">⚡</span>
+            <h3>Custom Stack Architecture</h3>
+          </div>
+          <p>Combine AI agents, 24/7 BPO, bespoke web apps, and digital marketing into a single managed pipeline.</p>
+          <a href="#contact" class="btn btn-primary btn-sm mt-3" style="width: 100%; border-radius: 8px;">Request Ecosystem Demo &rarr;</a>
         </div>
       </div>
     </div>
