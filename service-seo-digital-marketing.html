@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO & Performance Digital Marketing | Orange Virtual Connect</title>
+  <meta name="description" content="Search-first content strategy, technical SEO, performance advertising, and B2B growth marketing powered by Orange Virtual Connect.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .service-hero-section {
+      padding: 120px 0 80px;
+      background: linear-gradient(135deg, #0B0F19 0%, #16202A 100%);
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+    .service-hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .service-hero-text h1 {
+      font-size: 3rem;
+      line-height: 1.15;
+      margin: 16px 0 20px;
+      font-family: var(--font-head);
+    }
+    .service-hero-text .lead {
+      font-size: 1.15rem;
+      color: #94A3B8;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    .service-stats-pills {
+      display: flex;
+      gap: 24px;
+      margin-top: 36px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .service-stat-item strong {
+      display: block;
+      font-size: 1.6rem;
+      font-family: var(--font-head);
+      color: var(--c-orange);
+    }
+    .service-stat-item span {
+      font-size: 0.85rem;
+      color: #CBD5E1;
+    }
+    .service-hero-img-wrap {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .service-hero-img-wrap img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+    }
+    .feature-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-top: 50px;
+    }
+    .service-feature-card {
+      background: #fff;
+      border: 1px solid var(--c-line);
+      border-radius: var(--radius);
+      padding: 30px;
+      transition: all 0.3s ease;
+    }
+    .service-feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+      border-color: var(--c-orange);
+    }
+    .service-feature-icon {
+      font-size: 2.2rem;
+      margin-bottom: 16px;
+      display: inline-block;
+    }
+    .service-feature-card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 12px;
+    }
+    .process-timeline {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .process-step {
+      background: var(--c-soft);
+      border-radius: var(--radius);
+      padding: 24px;
+      position: relative;
+    }
+    .process-step-num {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--c-orange);
+      opacity: 0.4;
+      margin-bottom: 10px;
+      font-family: var(--font-head);
+    }
+    @media (max-width: 980px) {
+      .service-hero-grid { grid-template-columns: 1fr; }
+      .feature-card-grid { grid-template-columns: 1fr; }
+      .process-timeline { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ============== HEADER ============== -->
+<header class="site-header" id="siteHeader">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo" aria-label="Orange Virtual Connect Home">
+      <img src="images/ovc-logo-transparent.png" alt="Orange Virtual Connect Logo" style="width:42px;height:42px;object-fit:contain;" />
+      <span class="logo-text"><strong>Orange</strong><span>VC</span></span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="industries.html">Industries</a></li>
+        <li><a href="blog.html">Blog &amp; Case Studies</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ============== HERO SECTION ============== -->
+<section class="service-hero-section">
+  <div class="container">
+    <div class="service-hero-grid">
+      <div class="service-hero-text">
+        <span class="eyebrow eyebrow-orange">OUR SERVICES &middot; 07</span>
+        <h1>SEO &amp; Performance Digital Marketing</h1>
+        <p class="lead">Capture high-intent search buyers and compound organic traffic. We engineer search-first content, technical SEO audits, and performance ad funnels that drive qualified B2B pipeline.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Book an SEO Audit &amp; Strategy Call</a>
+          <a href="index.html#services" class="btn btn-ghost">All Services &rarr;</a>
+        </div>
+        <div class="service-stats-pills">
+          <div class="service-stat-item">
+            <strong>280%</strong>
+            <span>Avg Organic Traffic Growth</span>
+          </div>
+          <div class="service-stat-item">
+            <strong>#1 Page</strong>
+            <span>Keyword Ranking Focus</span>
+          </div>
+          <div class="service-stat-item">
+            <strong>4.8x</strong>
+            <span>Ad Spend Return (ROAS)</span>
+          </div>
+        </div>
+      </div>
+      <div class="service-hero-img-wrap">
+        <img src="images/seo.png" alt="SEO & Digital Marketing Showcase" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CORE CAPABILITIES ============== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow-orange">Capabilities</span>
+      <h2>Data-driven digital marketing engineered for growth.</h2>
+      <p class="lead-sm">We combine technical search architecture, high-converting copy, and multi-channel paid ads to generate predictable revenue pipeline.</p>
+    </div>
+
+    <div class="feature-card-grid">
+      <div class="service-feature-card">
+        <span class="service-feature-icon">🚀</span>
+        <h3>Technical &amp; On-Page SEO</h3>
+        <p>Comprehensive website audits, site speed optimization, schema markup, crawlability fixes, and internal linking architecture.</p>
+      </div>
+      <div class="service-feature-card">
+        <span class="service-feature-icon">✍️</span>
+        <h3>Search-First Content Marketing</h3>
+        <p>High-authority blog articles, landing pages, and industry whitepapers engineered to rank top for commercial buyer keywords.</p>
+      </div>
+      <div class="service-feature-card">
+        <span class="service-feature-icon">🎯</span>
+        <h3>Performance PPC &amp; Google Ads</h3>
+        <p>Precision search and display ad campaigns on Google Ads and Bing optimized for high-intent keywords and maximum ROAS.</p>
+      </div>
+      <div class="service-feature-card">
+        <span class="service-feature-icon">📱</span>
+        <h3>Social Media &amp; LinkedIn Ads</h3>
+        <p>Targeted B2B campaigns across LinkedIn, Meta, and X reaching key decision-makers with personalized messaging.</p>
+      </div>
+      <div class="service-feature-card">
+        <span class="service-feature-icon">🔗</span>
+        <h3>Authority Backlink Building</h3>
+        <p>White-hat outreach campaigns securing high-DR editorial backlinks and media features to boost domain rating.</p>
+      </div>
+      <div class="service-feature-card">
+        <span class="service-feature-icon">📈</span>
+        <h3>Conversion Rate Optimization (CRO)</h3>
+        <p>A/B testing landing page headlines, CTA placement, lead capture forms, and user flow to convert visitors into qualified leads.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PROCESS ROADMAP ============== -->
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow-orange">Our Process</span>
+      <h2>How we scale your organic &amp; paid traffic.</h2>
+    </div>
+
+    <div class="process-timeline">
+      <div class="process-step">
+        <div class="process-step-num">01</div>
+        <h4>SEO &amp; Keyword Audit</h4>
+        <p>In-depth technical audit, competitor keyword gap analysis, and high-intent commercial keyword mapping.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">02</div>
+        <h4>Technical Fixes &amp; Content</h4>
+        <p>Executing technical website fixes, site speed optimization, and publishing search-first content pillars.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">03</div>
+        <h4>Paid Ads Launch</h4>
+        <p>Deploying high-converting ad copy, landing pages, retargeting pixels, and tracking conversion funnels.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">04</div>
+        <h4>Measure &amp; Compound</h4>
+        <p>Weekly rank tracking, GA4 revenue attribution, ad spend optimization, and compounding monthly traffic growth.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CONTACT / CTA SECTION ============== -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow-orange">Get In Touch</span>
+      <h2>Scale your traffic and leads today.</h2>
+      <p class="lead-sm">Fill out the form below or reach us directly at virtual.care@orangevirtualconnect.com.</p>
+    </div>
+
+    <div style="max-width: 680px; margin: 0 auto; background: #fff; border: 1px solid var(--c-line); border-radius: var(--radius); padding: 36px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+      <form action="mailto:virtual.care@orangevirtualconnect.com" method="post" enctype="text/plain">
+        <div style="margin-bottom: 20px;">
+          <label style="display:block; margin-bottom: 6px; font-weight: 600;">Your Full Name *</label>
+          <input type="text" name="name" placeholder="John Doe" required style="width:100%; padding: 12px 16px; border: 1px solid var(--c-line); border-radius: 8px;">
+        </div>
+        <div style="margin-bottom: 20px;">
+          <label style="display:block; margin-bottom: 6px; font-weight: 600;">Work Email *</label>
+          <input type="email" name="email" placeholder="john@company.com" required style="width:100%; padding: 12px 16px; border: 1px solid var(--c-line); border-radius: 8px;">
+        </div>
+        <div style="margin-bottom: 20px;">
+          <label style="display:block; margin-bottom: 6px; font-weight: 600;">Mobile Number *</label>
+          <input type="tel" name="phone" placeholder="+91 98765 43210" required style="width:100%; padding: 12px 16px; border: 1px solid var(--c-line); border-radius: 8px;">
+        </div>
+        <div style="margin-bottom: 20px;">
+          <label style="display:block; margin-bottom: 6px; font-weight: 600;">Project Details / Message</label>
+          <textarea name="message" rows="4" placeholder="Tell us about your SEO and digital marketing requirements..." style="width:100%; padding: 12px 16px; border: 1px solid var(--c-line); border-radius: 8px;"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;">Send Inquiry &rarr;</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo logo-footer"><img src="images/ovc-logo-transparent.png" alt="Orange Virtual Connect Logo" style="width:42px;height:42px;object-fit:contain;" /><span class="logo-text"><strong>Orange</strong><span>VC</span></span></a>
+      <span class="footer-legal-name" style="display:block; font-size: 0.85rem; font-weight: 600; color: #FFFFFF; margin-top: 10px;">Orange Virtual Global Solutions Pvt. Ltd.</span>
+      <p>Technology, AI &amp; BPO &mdash; delivered as one trusted platform for mid-size organizations worldwide.</p>
+    </div>
+    <div><h4>Company</h4><ul><li><a href="index.html">Home</a></li><li><a href="blog.html">Blog</a></li><li><a href="blog.html#case-studies">Case Studies</a></li><li><a href="index.html#contact">Contact</a></li></ul></div>
+    <div><h4>Products</h4><ul><li><a href="products.html#medora360">Medora360</a></li><li><a href="products.html#orangepulse">OrangePulse</a></li><li><a href="products.html#remind365">Remind365</a></li><li><a href="products.html#sales-crm">Sales CRM</a></li><li><a href="products.html#wms">Warehouse Management</a></li></ul></div>
+    <div><h4>Industries</h4><ul><li><a href="industries.html#healthcare">Healthcare</a></li><li><a href="industries.html#manufacturing">Manufacturing</a></li><li><a href="industries.html#sme">SME</a></li><li><a href="industries.html#msme">MSME</a></li><li><a href="industries.html#technology">Technology</a></li><li><a href="industries.html#startups">Startups</a></li></ul></div>
+    <div class="footer-contact"><h4>Reach Us</h4><p><a href="mailto:virtual.care@orangevirtualconnect.com">virtual.care@orangevirtualconnect.com</a></p><p><a href="tel:+919310557136">+91 93105 57136</a></p><div class="footer-social-root mt-4"></div></div>
+  </div>
+  <div class="footer-bar"><div class="container"><span>&copy; <span id="year"></span> Orange Virtual Global Solutions Pvt. Ltd. All rights reserved.</span><span><a href="#">Privacy</a> &middot; <a href="#">Terms</a></span></div></div>
+</footer>
+
+<!-- Left-Side Floating Call Action Button -->
+<a href="tel:+919310557136" class="floating-call-btn" aria-label="Call Us: +91 9310557136">
+  <div class="call-pulse-ring"></div>
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  <span class="call-tooltip">Call Us: +91 9310557136</span>
+</a>
+
+<!-- Right-Side Floating Expandable Social Menu (+) -->
+<div class="floating-social-menu" id="floatingSocialMenu">
+  <div class="social-items-list">
+    <a href="https://wa.me/919310557136" target="_blank" rel="noopener noreferrer" class="social-item whatsapp" aria-label="WhatsApp">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg>
+      <span class="social-label">WhatsApp</span>
+    </a>
+    <a href="https://www.linkedin.com/in/mukesh-sharma-5b57a0394" target="_blank" rel="noopener noreferrer" class="social-item linkedin" aria-label="LinkedIn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+      <span class="social-label">LinkedIn</span>
+    </a>
+    <a href="https://instagram.com/orangevirtualconnect" target="_blank" rel="noopener noreferrer" class="social-item instagram" aria-label="Instagram">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+      <span class="social-label">Instagram</span>
+    </a>
+    <a href="https://facebook.com/orangevirtualconnect" target="_blank" rel="noopener noreferrer" class="social-item facebook" aria-label="Facebook">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      <span class="social-label">Facebook</span>
+    </a>
+    <a href="https://www.threads.net/@orangevirtualconnect" target="_blank" rel="noopener noreferrer" class="social-item threads" aria-label="Threads">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg>
+      <span class="social-label">Threads</span>
+    </a>
+    <a href="https://x.com/OVconnect" target="_blank" rel="noopener noreferrer" class="social-item twitter" aria-label="X (Twitter)">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+      <span class="social-label">X</span>
+    </a>
+    <a href="https://youtube.com/@orangevirtualconnect" target="_blank" rel="noopener noreferrer" class="social-item youtube" aria-label="YouTube">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.56 49.56 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><polygon points="10 15 15 12 10 9 10 15"/></svg>
+      <span class="social-label">YouTube</span>
+    </a>
+  </div>
+
+  <button class="social-menu-trigger" id="socialMenuTrigger" aria-label="Toggle Social Media Menu">
+    <span class="icon-plus">+</span>
+    <span class="icon-cross">&times;</span>
+  </button>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/components.js"></script>
+</body>
+</html>
