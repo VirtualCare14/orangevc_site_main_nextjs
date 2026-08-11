@@ -1,16 +1,25 @@
 {
   "name": "orangevc-website",
   "version": "1.0.0",
-  "description": "Orange Virtual Connect official website",
-  "main": "index.html",
+  "description": "Orange Virtual Connect official website - Next.js 15 App Router",
+  "private": true,
   "scripts": {
-    "start": "npx serve .",
-    "dev": "npx serve ."
+    "clean": "node -e \"try{fs.rmSync('.next',{recursive:true,force:true})}catch(e){}\"",
+    "dev": "node -e \"try{fs.rmSync('.next/diagnostics',{recursive:true,force:true});fs.rmSync('.next/server',{recursive:true,force:true})}catch(e){}\" && next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "Orange Virtual Connect",
-  "license": "ISC",
+  "dependencies": {
+    "framer-motion": "^12.43.0",
+    "lucide-react": "^0.468.0",
+    "next": "^15.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
   "devDependencies": {
-    "serve": "^14.2.4"
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16"
   }
 }
