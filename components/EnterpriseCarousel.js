@@ -25,7 +25,7 @@ const enterpriseSlides = [
     title: "Business Process Excellence",
     description: "Sales calling, customer service and back-office support teams who treat your customers as their own.",
     url: "bpo.orangevirtualconnect.com",
-    imageSrc: "/images/bpo.png",
+    imageSrc: "/images/bpo-excellence.gif",
     accentColor: "#FF6A00"
   }
 ];
