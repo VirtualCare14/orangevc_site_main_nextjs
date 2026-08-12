@@ -10,7 +10,7 @@ const heroServices = [
     title: "Software Engineering",
     desc: "Bespoke web & mobile platforms, cloud microservices and enterprise ERP integrations.",
     href: "/service-software-development",
-    imgSrc: "/images/software.png",
+    imgSrc: "/images/software-engineering.png",
     icon: "💻",
     stats: [
       { label: "Active Pods", val: "24" },
