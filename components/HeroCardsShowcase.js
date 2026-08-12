@@ -154,10 +154,6 @@ export default function HeroCardsShowcase() {
               <h3 className="card-title-text">{service.title}</h3>
               <p className="card-desc-text">{service.desc}</p>
 
-              {/* Explore Service Link */}
-              <Link href={service.href} className="card-explore-link">
-                Explore Service <span>&rarr;</span>
-              </Link>
 
               {/* Inner SaaS Window Mockup */}
               <div className="card-saas-window">
