@@ -33,7 +33,7 @@ export default function BlogPage() {
           <div className="blog-grid">
             <article className="blog-card">
               <div className="card-img-wrapper">
-                <Image src="/images/ai-agent.png" alt="AI Agents" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
+                <Image src="/images/blog-ai-support.png" alt="AI Agents" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
                 <span className="card-img-badge">AI Agents</span>
               </div>
               <div className="blog-tag">AI Agents</div>
