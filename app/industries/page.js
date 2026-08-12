@@ -67,7 +67,7 @@ export default function IndustriesPage() {
             {/* SME */}
             <article className="industry-card" id="sme">
               <div className="card-img-wrapper">
-                <Image src="/images/whatsapp.png" alt="SME" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
+                <Image src="/images/ind-sme.png" alt="SME" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
                 <span className="card-img-badge">Growth Stack</span>
               </div>
               <div className="industry-num">03</div>
