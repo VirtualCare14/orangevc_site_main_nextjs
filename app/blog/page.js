@@ -64,10 +64,6 @@ export default function BlogPage() {
 
           {/* CASE STUDY 1 - PALKOTECH */}
           <article className="case-card" id="palkotech">
-            <div className="card-img-wrapper" style={{ height: '200px' }}>
-              <Image src="/images/software.png" alt="Palkotech Engineering Case Study" fill sizes="(max-width: 768px) 100vw, 800px" style={{ objectFit: 'cover' }} />
-              <span className="card-img-badge">Engineering MSME</span>
-            </div>
             <div className="case-head">
               <span className="case-tag">MSME · Collections Automation</span>
               <h3>Remind365 cuts DSO by 41% at Palkotech Engineering</h3>
@@ -100,10 +96,6 @@ export default function BlogPage() {
 
           {/* CASE STUDY 2 - CABLE SALES */}
           <article className="case-card" id="cablesales">
-            <div className="card-img-wrapper" style={{ height: '200px' }}>
-              <Image src="/images/whatsapp.png" alt="Cable Sales Case Study" fill sizes="(max-width: 768px) 100vw, 800px" style={{ objectFit: 'cover' }} />
-              <span className="card-img-badge">Distribution SME</span>
-            </div>
             <div className="case-head">
               <span className="case-tag">SME · Digital Growth</span>
               <h3>Cable Sales: 4.7× inbound leads in 6 months with a new website &amp; sales engine</h3>
@@ -136,10 +128,6 @@ export default function BlogPage() {
 
           {/* CASE STUDY 3 - PRAYASCARE */}
           <article className="case-card" id="prayascare">
-            <div className="card-img-wrapper" style={{ height: '200px' }}>
-              <Image src="/images/ai-agent.png" alt="PrayasCare Case Study" fill sizes="(max-width: 768px) 100vw, 800px" style={{ objectFit: 'cover' }} />
-              <span className="card-img-badge">Healthcare Hospital</span>
-            </div>
             <div className="case-head">
               <span className="case-tag">Healthcare · Hospital Digitalization</span>
               <h3>PrayasCare: Medora360 powers end-to-end digitalization for a 10-bed hospital</h3>
