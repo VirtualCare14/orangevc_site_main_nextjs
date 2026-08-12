@@ -10,7 +10,7 @@ const heroServices = [
     title: "Software Engineering",
     desc: "Bespoke web & mobile platforms, cloud microservices and enterprise ERP integrations.",
     href: "/service-software-development",
-    imgSrc: "/images/software-engineering.png",
+    imgSrc: "/images/software-engineering-hero.png",
     icon: "💻",
     stats: [
       { label: "Active Pods", val: "24" },
@@ -23,7 +23,7 @@ const heroServices = [
     title: "Website Designing",
     desc: "Conversion-focused websites that build brand authority and drive enterprise growth.",
     href: "/service-website-designing",
-    imgSrc: "/images/webdesign-new.png",
+    imgSrc: "/images/webdesign-hero.png",
     icon: "🎨",
     stats: [
       { label: "Conversion Lift", val: "+156%" },
@@ -36,7 +36,7 @@ const heroServices = [
     title: "AI Agent Deployments",
     desc: "Intelligent AI agents for sales qualification, customer support, and operations automation.",
     href: "/service-ai-agent-deployments",
-    imgSrc: "/images/ai-agent-new.png",
+    imgSrc: "/images/ai-agent-hero.png",
     icon: "🤖",
     stats: [
       { label: "Total Agents", val: "128" },
@@ -49,7 +49,7 @@ const heroServices = [
     title: "SEO & Digital Marketing",
     desc: "Data-driven SEO & marketing strategies that deliver compound organic traffic and leads.",
     href: "/service-seo-digital-marketing",
-    imgSrc: "/images/seo.png",
+    imgSrc: "/images/seo-hero.png",
     icon: "🚀",
     stats: [
       { label: "Organic Traffic", val: "+156%" },
@@ -62,7 +62,7 @@ const heroServices = [
     title: "Sales & Lead Support",
     desc: "Outbound and inbound sales calling squads that qualify leads and accelerate pipeline velocity.",
     href: "/service-sales-lead-calling",
-    imgSrc: "/images/sales.png",
+    imgSrc: "/images/sales-hero.png",
     icon: "📞",
     stats: [
       { label: "Dials / Day", val: "4.5K" },
@@ -75,7 +75,7 @@ const heroServices = [
     title: "Customer Service BPO",
     desc: "24/7/365 global customer support across voice, chat, email and WhatsApp channels.",
     href: "/service-customer-service-bpo",
-    imgSrc: "/images/bpo.png",
+    imgSrc: "/images/bpo-hero.png",
     icon: "🎧",
     stats: [
       { label: "CSAT Score", val: "98.2%" },
@@ -88,7 +88,7 @@ const heroServices = [
     title: "SaaS Product Engine",
     desc: "From idea to MVP to scale — co-building custom SaaS products and CRM platforms.",
     href: "/service-saas-product-development",
-    imgSrc: "/images/saas-engine.png",
+    imgSrc: "/images/saas-engine-hero.png",
     icon: "🧩",
     stats: [
       { label: "Active SaaS Users", val: "45K" },
