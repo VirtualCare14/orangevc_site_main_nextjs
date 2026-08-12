@@ -43,7 +43,7 @@ export default function BlogPage() {
             </article>
             <article className="blog-card">
               <div className="card-img-wrapper">
-                <Image src="/images/seo.png" alt="Collections Automation" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
+                <Image src="/images/blog-payment-reminder.png" alt="Collections Automation" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
                 <span className="card-img-badge">Collections</span>
               </div>
               <div className="blog-tag">Collections</div>
