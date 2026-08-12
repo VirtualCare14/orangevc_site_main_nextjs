@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "clean": "node -e \"try{fs.rmSync('.next',{recursive:true,force:true})}catch(e){}\"",
-    "dev": "npm run clean && next dev",
-    "build": "npm run clean && next build",
+    "dev": "npm run clean && node scripts/ensure-next-cache.js && next dev",
+    "build": "npm run clean && node scripts/ensure-next-cache.js && next build",
     "start": "next start",
     "lint": "next lint"
   },
