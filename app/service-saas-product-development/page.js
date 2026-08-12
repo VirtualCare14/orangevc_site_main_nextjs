@@ -40,7 +40,7 @@ export default function SaaSProductDevelopmentPage() {
             </div>
             <div className="service-hero-img-wrap">
               <Image
-                src="/images/crm.png"
+                src="/images/sales-crm.png"
                 alt="SaaS Product Development"
                 fill
                 priority

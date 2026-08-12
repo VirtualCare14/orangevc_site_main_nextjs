@@ -26,7 +26,7 @@ const servicesData = [
     title: "AI Agent Deployments",
     desc: "Custom-trained AI agents for sales outreach, lead qualification, customer support and internal ops.",
     href: "/service-ai-agent-deployments",
-    imgSrc: "/images/ai-agent.png",
+    imgSrc: "/images/ai-agent-new.png",
     icon: <Bot className="w-5 h-5 text-[#FF6A00]" />
   },
   {
@@ -70,7 +70,7 @@ const servicesData = [
     title: "SaaS Product Development",
     desc: "From idea to MVP to scale — we co-build SaaS products with founders and product teams.",
     href: "/service-saas-product-development",
-    imgSrc: "/images/crm.png",
+    imgSrc: "/images/sales-crm.png",
     icon: <Layers className="w-5 h-5 text-[#FF6A00]" />
   },
   {

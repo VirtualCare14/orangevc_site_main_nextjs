@@ -40,7 +40,7 @@ export default function AIAgentDeploymentsPage() {
             </div>
             <div className="service-hero-img-wrap">
               <Image
-                src="/images/ai-agent.png"
+                src="/images/ai-agent-new.png"
                 alt="AI Agent Deployments"
                 fill
                 priority
