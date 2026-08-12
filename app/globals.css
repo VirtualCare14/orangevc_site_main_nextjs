@@ -471,13 +471,13 @@ p { margin: 0 0 1em; }
 .hero-glass-card {
   position: absolute;
   width: 260px;
-  background: rgba(18, 24, 38, 0.85);
-  backdrop-filter: blur(28px) saturate(190%);
-  -webkit-backdrop-filter: blur(28px) saturate(190%);
-  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(24px) saturate(190%);
+  -webkit-backdrop-filter: blur(24px) saturate(190%);
+  border: 1.5px solid #FFE2D1;
   border-radius: 26px;
   padding: 20px;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 16px 40px rgba(255, 106, 0, 0.1), 0 4px 16px rgba(16, 24, 40, 0.04);
   transition: all 0.65s cubic-bezier(0.25, 1, 0.5, 1);
   cursor: pointer;
   display: flex;
@@ -489,21 +489,22 @@ p { margin: 0 0 1em; }
   z-index: 35;
   transform: translateX(0) scale(1.06) translateZ(30px);
   opacity: 1;
-  border-color: var(--c-orange);
-  box-shadow: 0 25px 65px rgba(0, 0, 0, 0.6), 0 0 35px rgba(255, 106, 0, 0.45);
+  background: #FFFFFF;
+  border: 2px solid var(--c-orange);
+  box-shadow: 0 25px 60px rgba(255, 106, 0, 0.22), 0 0 30px rgba(255, 106, 0, 0.15);
 }
 
 .hero-glass-card.card-left {
   z-index: 25;
   transform: translateX(-68%) scale(0.85) rotateY(10deg) translateZ(-20px);
-  opacity: 0.72;
+  opacity: 0.82;
   filter: blur(0.5px);
 }
 
 .hero-glass-card.card-right {
   z-index: 25;
   transform: translateX(68%) scale(0.85) rotateY(-10deg) translateZ(-20px);
-  opacity: 0.72;
+  opacity: 0.82;
   filter: blur(0.5px);
 }
 
@@ -524,6 +525,10 @@ p { margin: 0 0 1em; }
   display: flex;
   align-items: center;
   gap: 6px;
+  background: #FFF4EC;
+  border: 1px solid #FFE2D1;
+  padding: 3px 10px;
+  border-radius: 999px;
 }
 
 .dot-orange-pulse {
@@ -549,15 +554,15 @@ p { margin: 0 0 1em; }
 .card-title-text {
   font-family: var(--font-head);
   font-size: 1.15rem;
-  font-weight: 700;
-  color: #FFFFFF;
+  font-weight: 800;
+  color: #101828;
   margin: 0;
   line-height: 1.25;
 }
 
 .card-desc-text {
   font-size: 0.78rem;
-  color: #94A3B8;
+  color: #475569;
   line-height: 1.45;
   margin: 0;
   display: -webkit-box;
@@ -578,17 +583,17 @@ p { margin: 0 0 1em; }
 }
 
 .card-explore-link:hover {
-  color: #FF8C38;
+  color: #D94A0F;
   transform: translateX(3px);
 }
 
 .card-saas-window {
-  background: rgba(10, 15, 26, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: #FFFDFB;
+  border: 1px solid #FFE2D1;
   border-radius: 16px;
   overflow: hidden;
   margin-top: 6px;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 14px rgba(255, 106, 0, 0.06);
 }
 
 .saas-mac-bar {
@@ -596,8 +601,8 @@ p { margin: 0 0 1em; }
   align-items: center;
   gap: 5px;
   padding: 8px 12px;
-  background: rgba(16, 24, 40, 0.8);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: #FFF4EC;
+  border-bottom: 1px solid #FFE2D1;
 }
 
 .mac-dot {
@@ -612,7 +617,7 @@ p { margin: 0 0 1em; }
 .mac-title-tag {
   font-size: 0.65rem;
   color: #64748B;
-  font-weight: 600;
+  font-weight: 700;
   margin-left: 6px;
 }
 
@@ -620,12 +625,13 @@ p { margin: 0 0 1em; }
   position: relative;
   width: 100%;
   height: 125px;
+  background: #FFFFFF;
 }
 
 .saas-img-gradient {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(10, 15, 26, 0) 50%, rgba(10, 15, 26, 0.8) 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(255, 244, 236, 0.6) 100%);
 }
 
 .saas-stats-strip {
@@ -633,8 +639,8 @@ p { margin: 0 0 1em; }
   grid-template-columns: repeat(3, 1fr);
   gap: 4px;
   padding: 8px 10px;
-  background: rgba(16, 24, 40, 0.9);
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: #FFF0E6;
+  border-top: 1px solid #FFE2D1;
 }
 
 .saas-stat-item {
@@ -648,13 +654,14 @@ p { margin: 0 0 1em; }
   font-size: 0.62rem;
   color: #64748B;
   white-space: nowrap;
+  font-weight: 600;
 }
 
 .stat-value {
   font-family: var(--font-head);
   font-size: 0.75rem;
   font-weight: 800;
-  color: #FFFFFF;
+  color: #101828;
 }
 
 .hero-pagination-dots {
@@ -671,7 +678,7 @@ p { margin: 0 0 1em; }
   width: 8px;
   height: 8px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.25);
+  background: #FFE2D1;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
