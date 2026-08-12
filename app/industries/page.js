@@ -29,7 +29,7 @@ export default function IndustriesPage() {
             {/* HEALTHCARE */}
             <article className="industry-card" id="healthcare">
               <div className="card-img-wrapper">
-                <Image src="/images/ai-agent.png" alt="Healthcare" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
+                <Image src="/images/ind-healthcare.png" alt="Healthcare" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
                 <span className="card-img-badge">Medora360 OS</span>
               </div>
               <div className="industry-num">01</div>
