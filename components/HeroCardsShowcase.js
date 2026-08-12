@@ -23,7 +23,7 @@ const heroServices = [
     title: "Website Designing",
     desc: "Conversion-focused websites that build brand authority and drive enterprise growth.",
     href: "/service-website-designing",
-    imgSrc: "/images/webdesign.png",
+    imgSrc: "/images/webdesign-new.png",
     icon: "🎨",
     stats: [
       { label: "Conversion Lift", val: "+156%" },
