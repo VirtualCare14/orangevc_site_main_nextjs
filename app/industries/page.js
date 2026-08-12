@@ -48,7 +48,7 @@ export default function IndustriesPage() {
             {/* MANUFACTURING */}
             <article className="industry-card" id="manufacturing">
               <div className="card-img-wrapper">
-                <Image src="/images/software.png" alt="Manufacturing" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
+                <Image src="/images/ind-manufacturing.png" alt="Manufacturing" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
                 <span className="card-img-badge">Industrial Tech</span>
               </div>
               <div className="industry-num">02</div>
