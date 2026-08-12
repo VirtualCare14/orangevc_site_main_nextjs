@@ -26,7 +26,7 @@ export default function BlogPage() {
       <section className="section">
         <div className="container">
           <div className="section-head">
-            <span className="eyebrow eyebrow-orange">Latest Insights</span>
+            <span className="eyebrow eyebrow-orange">Blogs</span>
             <h2>From the OrangeVC desk.</h2>
           </div>
 
