@@ -16,19 +16,33 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div className="footer-brand">
-          <Link href="/" className="logo logo-footer">
-            <Image
-              src="/images/ovc-logo-transparent.png"
-              alt="Orange Virtual Connect Logo"
-              width={36}
-              height={36}
-              style={{ objectFit: 'contain' }}
-            />
-            <span className="logo-text">
-              <strong>Orange</strong>
-              <span>VC</span>
-            </span>
-          </Link>
+          <div className="flex items-end gap-4 flex-wrap">
+            <Link href="/" className="logo logo-footer m-0">
+              <Image
+                src="/images/ovc-logo-transparent.png"
+                alt="Orange Virtual Connect Logo"
+                width={36}
+                height={36}
+                style={{ objectFit: 'contain' }}
+              />
+              <span className="logo-text">
+                <strong>Orange</strong>
+                <span>VC</span>
+              </span>
+            </Link>
+
+            {/* Frameless mascot image inline in row aligned to bottom baseline */}
+            <div className="relative w-36 h-24 shrink-0 filter drop-shadow-[0_2px_12px_rgba(255,106,0,0.35)]">
+              <Image
+                src="/images/mascots.png"
+                alt="Orange VC Team Mascots"
+                fill
+                style={{ objectFit: 'contain', objectPosition: 'bottom left' }}
+                priority
+              />
+            </div>
+          </div>
+
           <span className="footer-legal-name" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: '#FFFFFF', marginTop: '10px' }}>
             Orange Virtual Connect Private Limited
           </span>
@@ -90,20 +104,6 @@ export default function Footer() {
 
           <div className="footer-social-root mt-4">
             <SocialLinks variant="footer" />
-          </div>
-
-          {/* Highlighted Premium Image-Only Card */}
-          <div className="footer-mascot-card mt-5 p-3 rounded-2xl bg-gradient-to-br from-slate-900/95 via-slate-800/90 to-slate-900/95 border border-[#FF6A00]/40 shadow-xl shadow-[#FF6A00]/15 backdrop-blur-md relative overflow-hidden group hover:border-[#FF6A00]/70 transition-all duration-300 flex items-center justify-center">
-            <div className="absolute -top-6 -right-6 w-28 h-28 bg-[#FF6A00]/20 rounded-full blur-xl pointer-events-none group-hover:bg-[#FF6A00]/30 transition-all" />
-            <div className="relative w-full h-36 shrink-0 transition-transform duration-300 group-hover:scale-105 filter drop-shadow-[0_4px_16px_rgba(255,106,0,0.35)]">
-              <Image
-                src="/images/mascots.png"
-                alt="Orange VC Team Mascots"
-                fill
-                style={{ objectFit: 'contain' }}
-                priority
-              />
-            </div>
           </div>
         </div>
       </div>
