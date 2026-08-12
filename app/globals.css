@@ -824,6 +824,7 @@ p { margin: 0 0 1em; }
   border-radius: 18px;
   background: #FFFFFF;
   padding: 8px;
+  position: relative;
   display: grid;
   place-items: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 0 1.5px rgba(255, 255, 255, 0.25);

@@ -40,8 +40,7 @@ export default function TrustStrip() {
                 <Image
                   src="/images/iso-certified.png"
                   alt="ISO 20000-1:2018 Certified"
-                  width={80}
-                  height={80}
+                  fill
                   style={{ objectFit: 'contain' }}
                 />
               </div>
@@ -53,8 +52,7 @@ export default function TrustStrip() {
                 <Image
                   src="/images/cmmi-level3.png"
                   alt="CMMI Level 3 Certified"
-                  width={80}
-                  height={80}
+                  fill
                   style={{ objectFit: 'contain' }}
                 />
               </div>
@@ -66,8 +64,7 @@ export default function TrustStrip() {
                 <Image
                   src="/images/msme-certified.png"
                   alt="MSME Certified Enterprise"
-                  width={80}
-                  height={80}
+                  fill
                   style={{ objectFit: 'contain' }}
                 />
               </div>
