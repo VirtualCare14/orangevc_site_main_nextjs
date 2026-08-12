@@ -10,7 +10,7 @@
     "clean": "node -e \"try{fs.rmSync('.next',{recursive:true,force:true})}catch(e){}\"",
     "dev": "npm run clean && node scripts/ensure-next-cache.js && next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "serve out",
     "lint": "next lint"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
+    "serve": "^14.2.6",
     "tailwindcss": "^3.4.16"
   }
 }
