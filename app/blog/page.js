@@ -53,7 +53,7 @@ export default function BlogPage() {
             </article>
             <article className="blog-card">
               <div className="card-img-wrapper">
-                <Image src="/images/software.png" alt="Healthcare Hospital OS" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
+                <Image src="/images/blog-hospital-os.png" alt="Healthcare Hospital OS" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
                 <span className="card-img-badge">Healthcare</span>
               </div>
               <div className="blog-tag">Healthcare</div>
