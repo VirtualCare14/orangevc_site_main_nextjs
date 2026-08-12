@@ -92,29 +92,17 @@ export default function Footer() {
             <SocialLinks variant="footer" />
           </div>
 
-          {/* Highlighted Premium Official Brand Mascots Card */}
-          <div className="footer-mascot-card mt-5 p-3.5 rounded-2xl bg-gradient-to-br from-slate-900/95 via-slate-800/90 to-slate-900/95 border border-[#FF6A00]/40 shadow-xl shadow-[#FF6A00]/15 backdrop-blur-md relative overflow-hidden group hover:border-[#FF6A00]/70 transition-all duration-300">
-            <div className="absolute -top-6 -right-6 w-24 h-24 bg-[#FF6A00]/20 rounded-full blur-xl pointer-events-none group-hover:bg-[#FF6A00]/30 transition-all" />
-            <div className="flex items-center gap-3 relative z-10">
-              <div className="relative w-20 h-24 shrink-0 transition-transform duration-300 group-hover:scale-105 filter drop-shadow-[0_4px_14px_rgba(255,106,0,0.4)]">
-                <Image
-                  src="/images/mascots.png"
-                  alt="Orange VC Team Mascots"
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  priority
-                />
-              </div>
-              <div>
-                <span className="inline-flex items-center gap-1 text-[9px] font-extrabold tracking-widest uppercase text-[#FF6A00] bg-[#FF6A00]/15 px-2 py-0.5 rounded-full border border-[#FF6A00]/30 mb-1">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#FF6A00] animate-pulse" />
-                  OFFICIAL MASCOTS
-                </span>
-                <h5 className="text-xs font-bold text-white font-sans m-0">Chief Happiness Officers 🐾</h5>
-                <p className="text-[10.5px] text-slate-300 font-sans m-0 mt-0.5 leading-snug">
-                  Inspiring creativity &amp; 24/7 positive energy at Orange Virtual Connect.
-                </p>
-              </div>
+          {/* Highlighted Premium Image-Only Card */}
+          <div className="footer-mascot-card mt-5 p-3 rounded-2xl bg-gradient-to-br from-slate-900/95 via-slate-800/90 to-slate-900/95 border border-[#FF6A00]/40 shadow-xl shadow-[#FF6A00]/15 backdrop-blur-md relative overflow-hidden group hover:border-[#FF6A00]/70 transition-all duration-300 flex items-center justify-center">
+            <div className="absolute -top-6 -right-6 w-28 h-28 bg-[#FF6A00]/20 rounded-full blur-xl pointer-events-none group-hover:bg-[#FF6A00]/30 transition-all" />
+            <div className="relative w-full h-36 shrink-0 transition-transform duration-300 group-hover:scale-105 filter drop-shadow-[0_4px_16px_rgba(255,106,0,0.35)]">
+              <Image
+                src="/images/mascots.png"
+                alt="Orange VC Team Mascots"
+                fill
+                style={{ objectFit: 'contain' }}
+                priority
+              />
             </div>
           </div>
         </div>
