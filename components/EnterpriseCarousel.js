@@ -127,15 +127,11 @@ export default function EnterpriseCarousel() {
                     className="w-full h-full object-cover object-center browser-screenshot"
                   />
                 ) : (
-                  <Image
+                  /* eslint-disable-next-line @next/next/no-img-element */
+                  <img
                     src={currentSlide.imageSrc}
                     alt={currentSlide.title}
-                    fill
-                    priority
-                    unoptimized
-                    sizes="(max-width: 768px) 100vw, 620px"
-                    style={{ objectFit: 'cover', objectPosition: 'top center' }}
-                    className="browser-screenshot"
+                    className="w-full h-full object-cover object-top browser-screenshot"
                   />
                 )}
               </div>
