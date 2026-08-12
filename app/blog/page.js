@@ -10,18 +10,6 @@ export const metadata = {
 export default function BlogPage() {
   return (
     <>
-      <section className="page-hero">
-        <div className="container">
-          <span className="eyebrow">Insights &amp; Outcomes</span>
-          <h1>Real stories from <span className="brand-orange">the operating floor.</span></h1>
-          <p className="lead">
-            Practical thinking on AI, automation and mid-market growth &mdash; plus three detailed case studies
-            showing how we partnered with Palkotech Engineering, Cable Sales and PrayasCare to deliver
-            measurable outcomes.
-          </p>
-        </div>
-      </section>
-
       {/* ============== INSIGHTS (BLOG STUBS) ============== */}
       <section className="section">
         <div className="container">
