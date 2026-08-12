@@ -13,12 +13,7 @@ export default function ProductsPage() {
       {/* ============== PAGE HERO ============== */}
       <section className="page-hero">
         <div className="container">
-          <span className="eyebrow">Enterprise SaaS Products</span>
-          <h1>Engineered by us. Battle-tested across <span className="brand-orange">global deployments.</span></h1>
-          <p className="lead">
-            Six enterprise SaaS products that solve core operational challenges for growing organizations
-            &mdash; from hospital digitization and automated payment reminders to warehouse inventory control, revenue pipelines, and smart GST invoicing.
-          </p>
+          <h1>OUR PRODUCTS</h1>
         </div>
       </section>
 
