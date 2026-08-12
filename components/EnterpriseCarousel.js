@@ -17,7 +17,7 @@ const enterpriseSlides = [
     title: "AI Enablement",
     description: "AI agents and automation deployed across sales, support, ops — tuned to your data, brand and KPIs.",
     url: "ai.orangevirtualconnect.com",
-    imageSrc: "/images/ai-agent.png",
+    imageSrc: "/images/ai-enablement.mp4",
     accentColor: "#FF6A00"
   },
   {
@@ -115,18 +115,29 @@ export default function EnterpriseCarousel() {
                 </div>
               </div>
 
-              {/* Website Screenshot Canvas */}
+              {/* Website Screenshot / Video Canvas */}
               <div className="browser-content-area-light relative w-full aspect-[16/10] overflow-hidden">
-                <Image
-                  src={currentSlide.imageSrc}
-                  alt={currentSlide.title}
-                  fill
-                  priority
-                  unoptimized
-                  sizes="(max-width: 768px) 100vw, 620px"
-                  style={{ objectFit: 'cover', objectPosition: 'top center' }}
-                  className="browser-screenshot"
-                />
+                {currentSlide.imageSrc.endsWith('.mp4') ? (
+                  <video
+                    src={currentSlide.imageSrc}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover object-center browser-screenshot"
+                  />
+                ) : (
+                  <Image
+                    src={currentSlide.imageSrc}
+                    alt={currentSlide.title}
+                    fill
+                    priority
+                    unoptimized
+                    sizes="(max-width: 768px) 100vw, 620px"
+                    style={{ objectFit: 'cover', objectPosition: 'top center' }}
+                    className="browser-screenshot"
+                  />
+                )}
               </div>
             </div>
           </div>
