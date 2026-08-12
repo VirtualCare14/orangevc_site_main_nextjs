@@ -141,7 +141,7 @@ export default function HomePage() {
             </article>
             <article className="model-card model-featured">
               <div className="card-img-wrapper">
-                <Image src="/images/bpo.png" alt="Dedicated Pod Model" fill sizes="(max-width: 768px) 100vw, 300px" style={{ objectFit: 'cover' }} />
+                <Image src="/images/dedicated-pod.png" alt="Dedicated Pod Model" fill sizes="(max-width: 768px) 100vw, 300px" style={{ objectFit: 'cover' }} />
                 <span className="card-img-badge">Most Flexible</span>
               </div>
               <span className="model-tag model-tag-orange">Most Flexible</span>
