@@ -155,7 +155,7 @@ export default function HomePage() {
             </article>
             <article className="model-card">
               <div className="card-img-wrapper">
-                <Image src="/images/crm.png" alt="Managed Service Model" fill sizes="(max-width: 768px) 100vw, 300px" style={{ objectFit: 'cover' }} />
+                <Image src="/images/managed-kpi.png" alt="Managed Service Model" fill sizes="(max-width: 768px) 100vw, 300px" style={{ objectFit: 'cover' }} />
                 <span className="card-img-badge">Outcome-Owned</span>
               </div>
               <span className="model-tag">Outcome-Owned</span>
