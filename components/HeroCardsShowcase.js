@@ -88,7 +88,7 @@ const heroServices = [
     title: "SaaS Product Engine",
     desc: "From idea to MVP to scale — co-building custom SaaS products and CRM platforms.",
     href: "/service-saas-product-development",
-    imgSrc: "/images/crm.png",
+    imgSrc: "/images/saas-engine.png",
     icon: "🧩",
     stats: [
       { label: "Active SaaS Users", val: "45K" },
