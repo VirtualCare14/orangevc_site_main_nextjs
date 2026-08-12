@@ -10,6 +10,7 @@ const enterpriseSlides = [
     description: "Tailored software, websites, integrations and platforms engineered to your exact operating reality.",
     url: "technology.orangevirtualconnect.com",
     imageSrc: "/images/webdesign.png",
+    lottieEmbed: "https://lottie.host/embed/16b69e12-0efb-4061-b33d-12dc2b93fd84/Ax2k12jKRd.lottie",
     accentColor: "#FF6A00"
   },
   {
@@ -115,17 +116,26 @@ export default function EnterpriseCarousel() {
                 </div>
               </div>
 
-              {/* Website Screenshot Canvas */}
-              <div className="browser-content-area-light relative w-full aspect-[16/10] overflow-hidden">
-                <Image
-                  src={currentSlide.imageSrc}
-                  alt={currentSlide.title}
-                  fill
-                  priority
-                  sizes="(max-width: 768px) 100vw, 620px"
-                  style={{ objectFit: 'cover', objectPosition: 'top center' }}
-                  className="browser-screenshot"
-                />
+              {/* Website Screenshot Canvas / Lottie Animation */}
+              <div className="browser-content-area-light relative w-full aspect-[16/10] overflow-hidden bg-white flex items-center justify-center">
+                {currentSlide.lottieEmbed ? (
+                  <iframe
+                    src={currentSlide.lottieEmbed}
+                    title={currentSlide.title}
+                    className="w-full h-full border-0 pointer-events-none"
+                    style={{ width: '100%', height: '100%', border: 'none' }}
+                  />
+                ) : (
+                  <Image
+                    src={currentSlide.imageSrc}
+                    alt={currentSlide.title}
+                    fill
+                    priority
+                    sizes="(max-width: 768px) 100vw, 620px"
+                    style={{ objectFit: 'cover', objectPosition: 'top center' }}
+                    className="browser-screenshot"
+                  />
+                )}
               </div>
             </div>
           </div>
