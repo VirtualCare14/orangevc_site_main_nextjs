@@ -40,7 +40,7 @@ export default function CustomerServiceBPOPage() {
             </div>
             <div className="service-hero-img-wrap">
               <Image
-                src="/images/bpo.png"
+                src="/images/bpo-hero.png"
                 alt="Customer Service BPO Showcase"
                 fill
                 priority

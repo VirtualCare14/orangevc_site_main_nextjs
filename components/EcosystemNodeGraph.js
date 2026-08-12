@@ -15,7 +15,7 @@ const servicesData = [
     title: "Website Designing",
     desc: "Conversion-led websites, brand systems and landing pages built for global mid-size buyers.",
     href: "/service-website-designing",
-    imgSrc: "/images/webdesign.png",
+    imgSrc: "/images/webdesign-hero.png",
     icon: <Code className="w-5 h-5 text-[#FF6A00]" />
   },
   {
@@ -26,7 +26,7 @@ const servicesData = [
     title: "AI Agent Deployments",
     desc: "Custom-trained AI agents for sales outreach, lead qualification, customer support and internal ops.",
     href: "/service-ai-agent-deployments",
-    imgSrc: "/images/ai-agent-new.png",
+    imgSrc: "/images/ai-agent-hero.png",
     icon: <Bot className="w-5 h-5 text-[#FF6A00]" />
   },
   {
@@ -37,7 +37,7 @@ const servicesData = [
     title: "Software Development",
     desc: "Bespoke web & mobile applications, integrations and internal tools — shipped in agile sprints.",
     href: "/service-software-development",
-    imgSrc: "/images/software.png",
+    imgSrc: "/images/software-engineering-hero.png",
     icon: <Laptop className="w-5 h-5 text-[#FF6A00]" />
   },
   {
@@ -48,7 +48,7 @@ const servicesData = [
     title: "Sales & Lead Support Calling",
     desc: "Outbound and inbound calling teams that fill your pipeline and qualify every opportunity that lands.",
     href: "/service-sales-lead-calling",
-    imgSrc: "/images/sales.png",
+    imgSrc: "/images/sales-hero.png",
     icon: <PhoneCall className="w-5 h-5 text-[#FF6A00]" />
   },
   {
@@ -59,7 +59,7 @@ const servicesData = [
     title: "Customer Service BPO",
     desc: "24/7 multilingual customer service — voice, chat, email and WhatsApp — under your brand.",
     href: "/service-customer-service-bpo",
-    imgSrc: "/images/bpo.png",
+    imgSrc: "/images/bpo-hero.png",
     icon: <Headphones className="w-5 h-5 text-[#FF6A00]" />
   },
   {
@@ -70,7 +70,7 @@ const servicesData = [
     title: "SaaS Product Development",
     desc: "From idea to MVP to scale — we co-build SaaS products with founders and product teams.",
     href: "/service-saas-product-development",
-    imgSrc: "/images/sales-crm.png",
+    imgSrc: "/images/saas-engine-hero.png",
     icon: <Layers className="w-5 h-5 text-[#FF6A00]" />
   },
   {
@@ -81,7 +81,7 @@ const servicesData = [
     title: "SEO & Digital Marketing",
     desc: "Search-first content, performance ads and lifecycle campaigns that compound month over month.",
     href: "/service-seo-digital-marketing",
-    imgSrc: "/images/seo.png",
+    imgSrc: "/images/seo-hero.png",
     icon: <Rocket className="w-5 h-5 text-[#FF6A00]" />
   }
 ];

@@ -40,7 +40,7 @@ export default function SEODigitalMarketingPage() {
             </div>
             <div className="service-hero-img-wrap">
               <Image
-                src="/images/seo.png"
+                src="/images/seo-hero.png"
                 alt="SEO &amp; Digital Marketing Showcase"
                 fill
                 priority

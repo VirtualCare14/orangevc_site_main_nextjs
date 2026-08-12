@@ -40,7 +40,7 @@ export default function SalesLeadCallingPage() {
             </div>
             <div className="service-hero-img-wrap">
               <Image
-                src="/images/sales.png"
+                src="/images/sales-hero.png"
                 alt="Sales Calling Operations"
                 fill
                 priority
