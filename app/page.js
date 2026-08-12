@@ -105,9 +105,7 @@ export default function HomePage() {
             <h2 className="who-we-are-heading-exact">
               A single trusted platform for technology,<br className="hidden md:block" /> AI &amp; business process excellence.
             </h2>
-            <p className="who-we-are-subtext-exact">
-              Orange Virtual Connect combines AI-powered technology with expert human support to simplify how mid-size organizations run their operations.
-            </p>
+
           </div>
 
           {/* Automatic Enterprise Carousel (Left Copy + Right Browser Mockup) */}
