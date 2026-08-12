@@ -36,7 +36,7 @@ const heroServices = [
     title: "AI Agent Deployments",
     desc: "Intelligent AI agents for sales qualification, customer support, and operations automation.",
     href: "/service-ai-agent-deployments",
-    imgSrc: "/images/ai-agent.png",
+    imgSrc: "/images/ai-agent-new.png",
     icon: "🤖",
     stats: [
       { label: "Total Agents", val: "128" },
