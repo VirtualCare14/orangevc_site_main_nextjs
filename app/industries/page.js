@@ -105,7 +105,7 @@ export default function IndustriesPage() {
             {/* TECHNOLOGY */}
             <article className="industry-card" id="technology">
               <div className="card-img-wrapper">
-                <Image src="/images/crm.png" alt="Technology" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
+                <Image src="/images/ind-technology.png" alt="Technology" fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
                 <span className="card-img-badge">SaaS Ecosystem</span>
               </div>
               <div className="industry-num">05</div>
