@@ -2493,7 +2493,7 @@ p { margin: 0 0 1em; }
   justify-content: space-between;
   padding: 10px 16px;
   background: #F1F5F9;
-  border-bottom: 1px solid #E2E8F0;
+  border-bottom: none;
   gap: 12px;
 }
 
