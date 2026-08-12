@@ -91,6 +91,17 @@ export default function Footer() {
           <div className="footer-social-root mt-4">
             <SocialLinks variant="footer" />
           </div>
+
+          <div className="mt-4 flex items-center">
+            <Image
+              src="/images/footer-cats.png"
+              alt="Footer Mascot Cats"
+              width={120}
+              height={120}
+              style={{ objectFit: 'contain' }}
+              className="drop-shadow-lg transition-transform duration-300 hover:scale-105"
+            />
+          </div>
         </div>
       </div>
 
