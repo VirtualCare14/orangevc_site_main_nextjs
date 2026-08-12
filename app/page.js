@@ -127,7 +127,7 @@ export default function HomePage() {
           <div className="model-grid">
             <article className="model-card">
               <div className="card-img-wrapper">
-                <Image src="/images/software.png" alt="Project-Based Model" fill sizes="(max-width: 768px) 100vw, 300px" style={{ objectFit: 'cover' }} />
+                <Image src="/images/project-sprints.png" alt="Project-Based Model" fill sizes="(max-width: 768px) 100vw, 300px" style={{ objectFit: 'cover' }} />
                 <span className="card-img-badge">Fixed Scope</span>
               </div>
               <span className="model-tag">Fixed Scope</span>
