@@ -43,12 +43,12 @@ export default function EnterpriseCarousel() {
     setCurrentIndex((prev) => (prev - 1 + total) % total);
   }, [total]);
 
-  // Automatic slide rotation every 4.5 seconds (paused on mouse enter)
+  // Automatic slide rotation every 2 seconds (paused on mouse enter)
   useEffect(() => {
     if (isPaused) return;
     const timer = setInterval(() => {
       nextSlide();
-    }, 4500);
+    }, 2000);
     return () => clearInterval(timer);
   }, [isPaused, nextSlide]);
 
