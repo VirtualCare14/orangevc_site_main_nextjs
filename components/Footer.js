@@ -31,15 +31,26 @@ export default function Footer() {
               </span>
             </Link>
 
-            {/* Frameless mascot image inline in row aligned to bottom baseline */}
-            <div className="relative w-36 h-24 shrink-0 filter drop-shadow-[0_2px_12px_rgba(255,106,0,0.35)]">
-              <Image
-                src="/images/mascots.png"
-                alt="Orange VC Team Mascots"
-                fill
-                style={{ objectFit: 'contain', objectPosition: 'bottom left' }}
-                priority
-              />
+            {/* Frameless mascot images inline in row aligned to bottom baseline */}
+            <div className="flex items-end -space-x-3 shrink-0 filter drop-shadow-[0_2px_12px_rgba(255,106,0,0.35)]">
+              <div className="relative w-16 h-24">
+                <Image
+                  src="/images/mascot-1.png"
+                  alt="Orange VC Mascot 1"
+                  fill
+                  style={{ objectFit: 'contain', objectPosition: 'bottom right' }}
+                  priority
+                />
+              </div>
+              <div className="relative w-20 h-24">
+                <Image
+                  src="/images/mascot-2.png"
+                  alt="Orange VC Mascot 2"
+                  fill
+                  style={{ objectFit: 'contain', objectPosition: 'bottom left' }}
+                  priority
+                />
+              </div>
             </div>
           </div>
 
