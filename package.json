@@ -1,7 +1,7 @@
 {
   "name": "orangevc-website",
   "version": "1.0.0",
-  "description": "Orange Virtual Connect official website - Next.js 15 App Router",
+  "description": "Orange Virtual Global Solutions official website - Next.js 15 App Router",
   "private": true,
   "engines": {
     "node": ">=18.18.0"

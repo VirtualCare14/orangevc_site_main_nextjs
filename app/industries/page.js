@@ -4,8 +4,8 @@ import Image from 'next/image';
 import ContactSection from '@/components/ContactSection';
 
 export const metadata = {
-  title: 'Industries We Serve | Orange Virtual Connect',
-  description: 'Industries served by Orange Virtual Connect - Healthcare, Manufacturing, SME, MSME, Technology and Startups.',
+  title: 'Industries We Serve | Orange Virtual Global Solutions',
+  description: 'Industries served by Orange Virtual Global Solutions - Healthcare, Manufacturing, SME, MSME, Technology and Startups.',
 };
 
 export default function IndustriesPage() {

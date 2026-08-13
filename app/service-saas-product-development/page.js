@@ -4,7 +4,7 @@ import Image from 'next/image';
 import ContactSection from '@/components/ContactSection';
 
 export const metadata = {
-  title: 'SaaS Product Development & Co-Building | Orange Virtual Connect',
+  title: 'SaaS Product Development & Co-Building | Orange Virtual Global Solutions',
   description: 'Turn SaaS concepts into scalable cloud products. We co-build multi-tenant B2B SaaS platforms with subscription billing, analytics, and enterprise security.',
 };
 

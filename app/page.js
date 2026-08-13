@@ -9,8 +9,8 @@ import EnterpriseCarousel from '@/components/EnterpriseCarousel';
 import ServicesMobileShowcase from '@/components/ServicesMobileShowcase';
 
 export const metadata = {
-  title: 'Orange Virtual Connect | Enterprise Technology, AI & BPO Partner',
-  description: 'Accelerate digital transformation with Orange Virtual Connect — bespoke software engineering, autonomous AI agent deployments, cloud infrastructure, and 24/7 customer service BPO.',
+  title: 'Orange Virtual Global Solutions | Enterprise Technology, AI & BPO Partner',
+  description: 'Accelerate digital transformation with Orange Virtual Global Solutions — bespoke software engineering, autonomous AI agent deployments, cloud infrastructure, and 24/7 customer service BPO.',
 };
 
 export default function HomePage() {
@@ -29,7 +29,7 @@ export default function HomePage() {
                 Empowering Enterprises with <span className="brand-orange">AI, Software &amp; Cloud.</span>
               </h1>
               <p className="lead">
-                Orange Virtual Connect bridges business vision and technical execution. We engineer bespoke web &amp; mobile platforms, deploy autonomous AI agents, optimize cloud infrastructure, and operate 24/7 global BPO teams.
+                Orange Virtual Global Solutions bridges business vision and technical execution. We engineer bespoke web &amp; mobile platforms, deploy autonomous AI agents, optimize cloud infrastructure, and operate 24/7 global BPO teams.
               </p>
 
               {/* Primary & Secondary CTAs */}
@@ -175,7 +175,7 @@ export default function HomePage() {
       <section className="section section-soft">
         <div className="container why-grid">
           <div>
-            <span className="eyebrow eyebrow-orange">Why Orange Virtual Connect</span>
+            <span className="eyebrow eyebrow-orange">Why Orange Virtual Global Solutions</span>
             <h2>Built for global enterprise standards.</h2>
             <p className="lead-sm">You get a dedicated Account Lead and senior engineering pod that operates like your internal function &mdash; at a cost structure aligned with your growth.</p>
             
@@ -183,7 +183,7 @@ export default function HomePage() {
             <div className="mt-6 relative rounded-2xl overflow-hidden shadow-xl border border-orange-200/80 bg-white group">
               <img
                 src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXJyZndpbm84NjhpeHVxZmpuYTlkMm0wZWc0amxidHF4YzkzZW5saSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2JhEj6RU5n4cc6Ag/giphy.gif"
-                alt="Orange Virtual Connect Enterprise Execution"
+                alt="Orange Virtual Global Solutions Enterprise Execution"
                 className="w-full h-auto object-cover max-h-[300px] rounded-2xl transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />

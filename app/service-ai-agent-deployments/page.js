@@ -4,7 +4,7 @@ import Image from 'next/image';
 import ContactSection from '@/components/ContactSection';
 
 export const metadata = {
-  title: 'AI Agent Deployments & Autonomous Workflows | Orange Virtual Connect',
+  title: 'AI Agent Deployments & Autonomous Workflows | Orange Virtual Global Solutions',
   description: 'Deploy custom-trained AI agents that handle sales qualification, 24/7 customer queries, voice calling, and workflow automation natively integrated with your business data.',
 };
 

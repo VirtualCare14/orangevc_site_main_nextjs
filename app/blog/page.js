@@ -3,8 +3,8 @@ import Image from 'next/image';
 import ContactSection from '@/components/ContactSection';
 
 export const metadata = {
-  title: 'Blog & Case Studies | Orange Virtual Connect',
-  description: 'Orange Virtual Connect Blog and Case Studies - real outcomes from Palkotech Engineering, Cable Sales and PrayasCare.',
+  title: 'Blog & Case Studies | Orange Virtual Global Solutions',
+  description: 'Orange Virtual Global Solutions Blog and Case Studies - real outcomes from Palkotech Engineering, Cable Sales and PrayasCare.',
 };
 
 export default function BlogPage() {

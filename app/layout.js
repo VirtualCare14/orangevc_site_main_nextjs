@@ -5,10 +5,10 @@ import FloatingSocialBar from '@/components/FloatingSocialBar';
 import FloatingCallBtn from '@/components/FloatingCallBtn';
 
 export const metadata = {
-  title: 'Orange Virtual Connect | AI, Technology & BPO for Mid-Size Enterprises',
-  description: 'Orange Virtual Connect - Bespoke technology, AI agents, WhatsApp automation and SaaS products for mid-size organizations worldwide.',
-  keywords: ['AI agents', 'Technology', 'BPO', 'Software Development', 'SaaS', 'WhatsApp Automation', 'Orange Virtual Connect'],
-  authors: [{ name: 'Orange Virtual Connect' }],
+  title: 'Orange Virtual Global Solutions | AI, Technology & BPO for Mid-Size Enterprises',
+  description: 'Orange Virtual Global Solutions - Bespoke technology, AI agents, WhatsApp automation and SaaS products for mid-size organizations worldwide.',
+  keywords: ['AI agents', 'Technology', 'BPO', 'Software Development', 'SaaS', 'WhatsApp Automation', 'Orange Virtual Global Solutions', 'ORANGE VIRTUAL GLOBAL SOLUTIONS PRIVATE LIMITED'],
+  authors: [{ name: 'Orange Virtual Global Solutions' }],
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',

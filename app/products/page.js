@@ -3,7 +3,7 @@ import Image from 'next/image';
 import ContactSection from '@/components/ContactSection';
 
 export const metadata = {
-  title: 'Enterprise SaaS Products | Orange Virtual Connect',
+  title: 'Enterprise SaaS Products | Orange Virtual Global Solutions',
   description: 'Purpose-built SaaS products engineered for mid-size enterprises — Medora360 Hospital OS, OrangePulse, Remind365 Collections, Sales CRM, Warehouse Management WMS, and Invoice Generator.',
 };
 

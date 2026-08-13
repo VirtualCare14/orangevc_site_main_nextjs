@@ -4,7 +4,7 @@ import Image from 'next/image';
 import ContactSection from '@/components/ContactSection';
 
 export const metadata = {
-  title: 'SEO & Performance Digital Marketing | Orange Virtual Connect',
+  title: 'SEO & Performance Digital Marketing | Orange Virtual Global Solutions',
   description: 'Capture high-intent search buyers and compound organic traffic. We engineer search-first content, technical SEO audits, and performance ad funnels.',
 };
 

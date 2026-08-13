@@ -4,7 +4,7 @@ import Image from 'next/image';
 import ContactSection from '@/components/ContactSection';
 
 export const metadata = {
-  title: 'Bespoke Software Development & Engineering | Orange Virtual Connect',
+  title: 'Bespoke Software Development & Engineering | Orange Virtual Global Solutions',
   description: 'Scalable web platforms, mobile applications, microservices, and internal tools shipped in rapid agile sprints with enterprise reliability.',
 };
 

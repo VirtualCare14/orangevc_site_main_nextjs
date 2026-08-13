@@ -1,4 +1,4 @@
-# Orange Virtual Connect — Website Package
+# Orange Virtual Global Solutions — Website Package
 
 A static, self-contained 4-page website your team can host anywhere.
 

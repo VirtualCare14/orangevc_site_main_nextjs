@@ -280,7 +280,7 @@ export default function ServicesMobileShowcase() {
             <div className="relative w-full h-full">
               <Image
                 src="/images/laptop-frame.png"
-                alt="Orange Virtual Connect Laptop Frame"
+                alt="Orange Virtual Global Solutions Laptop Frame"
                 fill
                 priority
                 sizes="(max-width: 640px) 340px, (max-width: 1024px) 680px, 840px"

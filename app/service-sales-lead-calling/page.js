@@ -4,7 +4,7 @@ import Image from 'next/image';
 import ContactSection from '@/components/ContactSection';
 
 export const metadata = {
-  title: 'Sales & Lead Support Calling Operations | Orange Virtual Connect',
+  title: 'Sales & Lead Support Calling Operations | Orange Virtual Global Solutions',
   description: 'Accelerate your sales pipeline with dedicated outbound SDRs, inbound lead qualification specialists, and CRM-synced calling teams.',
 };
 

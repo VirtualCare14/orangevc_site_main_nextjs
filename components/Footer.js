@@ -20,7 +20,7 @@ export default function Footer() {
             <Link href="/" className="logo logo-footer m-0">
               <Image
                 src="/images/ovc-logo-transparent.png"
-                alt="Orange Virtual Connect Logo"
+                alt="Orange Virtual Global Solutions Logo"
                 width={36}
                 height={36}
                 style={{ objectFit: 'contain' }}
@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
 
           <span className="footer-legal-name" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: '#FFFFFF', marginTop: '10px' }}>
-            Orange Virtual Connect Private Limited
+            ORANGE VIRTUAL GLOBAL SOLUTIONS PRIVATE LIMITED
           </span>
           <div className="footer-offices-block" style={{ marginTop: '10px', fontSize: '0.8rem', color: '#94A3B8', lineHeight: 1.5 }}>
             <p style={{ margin: '0 0 4px' }}>
@@ -121,7 +121,7 @@ export default function Footer() {
 
       <div className="footer-bar">
         <div className="container">
-          <span>&copy; {currentYear} Orange Virtual Connect Private Limited. All rights reserved. ISO 20000-1 &amp; CMMI Level 3 Enterprise.</span>
+          <span>&copy; {currentYear} ORANGE VIRTUAL GLOBAL SOLUTIONS PRIVATE LIMITED. All rights reserved. ISO 20000-1 &amp; CMMI Level 3 Enterprise.</span>
           <div>
             <Link href="/contact">Privacy Policy</Link>
             <span className="mx-2">&bull;</span>

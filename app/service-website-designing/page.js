@@ -4,8 +4,8 @@ import Image from 'next/image';
 import ContactSection from '@/components/ContactSection';
 
 export const metadata = {
-  title: 'Website Designing | Orange Virtual Connect',
-  description: 'Custom, conversion-led website designing, brand systems, UI/UX architecture, and modern web applications engineered for global mid-size businesses by Orange Virtual Connect.',
+  title: 'Website Designing | Orange Virtual Global Solutions',
+  description: 'Custom, conversion-led website designing, brand systems, UI/UX architecture, and modern web applications engineered for global mid-size businesses by Orange Virtual Global Solutions.',
 };
 
 export default function WebsiteDesigningPage() {

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import ContactSection from '@/components/ContactSection';
 
 export const metadata = {
-  title: '24/7 Omnichannel Customer Service BPO | Orange Virtual Connect',
+  title: '24/7 Omnichannel Customer Service BPO | Orange Virtual Global Solutions',
   description: 'Deliver world-class, round-the-clock customer support across Voice, WhatsApp, Email, Live Chat, and Ticketing powered by trained agents and AI co-pilots.',
 };
 

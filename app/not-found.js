@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Page Not Found | Orange Virtual Connect',
+  title: 'Page Not Found | Orange Virtual Global Solutions',
   description: 'The page you are looking for does not exist or has been moved.',
 };
 
@@ -14,7 +14,7 @@ export default function NotFound() {
         Page Not Found
       </h1>
       <p className="text-slate-600 max-w-md mx-auto text-sm md:text-base mb-8">
-        The requested resource or service route could not be found on Orange Virtual Connect.
+        The requested resource or service route could not be found on Orange Virtual Global Solutions.
       </p>
       <Link href="/" className="btn btn-primary btn-sm shadow-md">
         Back to Home &rarr;

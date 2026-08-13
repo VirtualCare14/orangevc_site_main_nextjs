@@ -65,12 +65,12 @@ export default function Header() {
           <Link
             href="/"
             className="flex items-center gap-2.5 group shrink-0"
-            aria-label="Orange Virtual Connect Home"
+            aria-label="Orange Virtual Global Solutions Home"
             onClick={closeNav}
           >
             <Image
               src="/images/ovc-logo-transparent.png"
-              alt="Orange Virtual Connect Logo"
+              alt="Orange Virtual Global Solutions Logo"
               width={36}
               height={36}
               className="object-contain transition-transform duration-300 group-hover:scale-105"

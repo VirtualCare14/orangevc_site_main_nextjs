@@ -12,7 +12,7 @@ export default function HeroSocialCard() {
           <span className="w-2 h-2 rounded-full bg-[#FF6A00]" />
           <h4 className="text-base font-semibold text-slate-900 tracking-tight m-0 font-sans">Stay Connected</h4>
         </div>
-        <p className="text-xs text-slate-500 font-normal m-0 mt-1 font-sans">Follow Orange Virtual Connect</p>
+        <p className="text-xs text-slate-500 font-normal m-0 mt-1 font-sans">Follow Orange Virtual Global Solutions</p>
       </div>
       <SocialLinks variant="hero" />
     </div>

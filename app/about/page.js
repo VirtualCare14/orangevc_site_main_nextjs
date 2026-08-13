@@ -2,8 +2,8 @@ import React from 'react';
 import TeamVideoPlayer from '@/components/TeamVideoPlayer';
 
 export const metadata = {
-  title: 'About Us | Orange Virtual Connect',
-  description: 'Learn about Orange Virtual Connect — enterprise technology, autonomous AI agent deployment, software engineering, and 24/7 global BPO partner for mid-market and enterprise businesses.',
+  title: 'About Us | Orange Virtual Global Solutions',
+  description: 'Learn about Orange Virtual Global Solutions — enterprise technology, autonomous AI agent deployment, software engineering, and 24/7 global BPO partner for mid-market and enterprise businesses.',
 };
 
 export default function AboutPage() {
@@ -28,13 +28,13 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ============== ABOUT ORANGE VIRTUAL CONNECT HERO ============== */}
+      {/* ============== ABOUT ORANGE VIRTUAL GLOBAL SOLUTIONS HERO ============== */}
       <section className="page-hero pb-20">
         <div className="container">
-          <span className="eyebrow">About Orange Virtual Connect</span>
+          <span className="eyebrow">About Orange Virtual Global Solutions</span>
           <h2>Bridging business vision &amp; <span className="brand-orange">technical execution.</span></h2>
           <p className="lead">
-            Orange Virtual Connect Private Limited combines AI-powered custom technology engineering with dedicated 24/7 global business process execution (BPO) &mdash; delivering a single accountable platform for growing enterprises.
+            ORANGE VIRTUAL GLOBAL SOLUTIONS PRIVATE LIMITED combines AI-powered custom technology engineering with dedicated 24/7 global business process execution (BPO) &mdash; delivering a single accountable platform for growing enterprises.
           </p>
         </div>
       </section>

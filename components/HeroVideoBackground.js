@@ -77,7 +77,7 @@ export default function HeroVideoBackground() {
       >
         <Image
           src="/images/hero-dashboard-mockup.png"
-          alt="Orange Virtual Connect Hero Background"
+          alt="Orange Virtual Global Solutions Hero Background"
           fill
           priority
           sizes="100vw"
